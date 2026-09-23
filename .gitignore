@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+# FMP data and anything derived from it must not be committed (licence)
+studies/*/data/fmp/
+studies/*/work/*.jsonl
+studies/*/runs/

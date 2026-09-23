@@ -1,0 +1,36 @@
+{
+ "jev|A": {
+  "records": 12533,
+  "served:typesafe/jev-1.13-20260917": 12533
+ },
+ "jev|K": {
+  "records": 13133,
+  "served:typesafe/jev-1.13-20260917": 13133
+ },
+ "jev|K|prosp": {
+  "records": 757,
+  "served:typesafe/jev-1.13-20260917": 757
+ },
+ "jev|N": {
+  "records": 12533,
+  "served:typesafe/jev-1.13-20260917": 12533
+ },
+ "llama31|A": {
+  "records": 3708,
+  "served:meta-llama/llama-3.1-70b-instruct": 3708
+ },
+ "llama31|K": {
+  "incomplete_output": 55,
+  "records": 3708,
+  "served:meta-llama/llama-3.1-70b-instruct": 3708
+ },
+ "llama31|N": {
+  "incomplete_output": 5,
+  "records": 3708,
+  "served:meta-llama/llama-3.1-70b-instruct": 3708
+ },
+ "sonnet5|K": {
+  "records": 3708,
+  "served:anthropic/claude-sonnet-5": 3708
+ }
+}

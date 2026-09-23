@@ -1,0 +1,6 @@
+# versions used for the study, on Python 3.10.12
+numpy==2.2.6
+requests==2.34.2
+pytest==9.1.1
+scikit-learn==1.7.2           # tests only, to cross-check the weighted AUC
+opentimestamps-client==0.7.2  # ots info / ots verify

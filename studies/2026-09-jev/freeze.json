@@ -1,0 +1,45 @@
+{
+ "files": {
+  "PREREG.md": "a28ac482ef8597ea84002875a5e5410b19926e72f1e7aded45c24d12dd718a15",
+  "data/fetch_log.jsonl": "8ffb7166d569d7027511656feb1f1a85069821a9cb4f2b07085c38e6e90490b0",
+  "data/fmp/** (sha256 of sorted path:sha256 lines)": "b19f5e521803d12aa5a96139ed63d1091dc3b2a0c5b2954febabafa0bdaec29e",
+  "data/fmp/** file count": "2701",
+  "data/universe.json": "eb49f26021d21900d5666cde7e957ff23d5ec810aa72b11e5963de710bdd2797",
+  "preflight/smoke.jsonl": "564d73da4bfee92f71cd92ff85e853cca7c69fbc2a7cb9dc84cd476320d74079",
+  "src/analyze.py": "2f4bd57c5d252b0aa601d53a043f0d586c2a43f7404714de65f784a64b0e0f6c",
+  "src/build_events.py": "5f5b16954d06378e4fc02c80c4176e92b094a334e4c43e28cb63f93312163cbd",
+  "src/common.py": "a645dcb7485f600ba87ebae60e84400cc8b25367b4dc9a75173392c1361460e3",
+  "src/fmp_pull.py": "cc631da2a9bc25a5550cb7ec1fcf1e5bf7dbf0a69a0c10b7b3b348ed3e9e720e",
+  "src/freeze.py": "a76a0cc89e3b0f07b30fa6683eafcfa24e85c9d3dd2f1aec7f7fb18b0d28585e",
+  "src/payloads.py": "027490fc3c82c97783939500f4a004cb10bb874127792cda2315490784ad8669",
+  "src/run_models.py": "0f42500bfcede2355788771d5887684dd32109077b5756a76a11ac746e16d3f9",
+  "src/smoke.py": "f0efc550be6bac25dbb6a6419b2c90697c4625211ef5709e668ca03c56e1345d",
+  "tests/test_e2e.py": "bff18b80d40a43910cf27e9aae78afe25198838e407db58fca5f4cc44f1380d3",
+  "tests/test_stats.py": "9e8fb3baac3417940681979f4ec2f890d6998378709c8ba5aac83666a3fce50e",
+  "work/events.jsonl": "06b542026b6fa83d68ac5d0599c2d30208529eb9b52a448c69e2b13e3facaa9f",
+  "work/manifest.json": "1ef8825b60653d4e3c283f0410f875821c9039fb22dc2b9f0aafc360ef195014",
+  "work/prospective.jsonl": "7d747b27eac72b83a95fcc6aeb2be0c3313004c5cf542df482b7d1ebad8ede3c",
+  "work/requests.jsonl": "76edc19927e290ff123daa8e07f5621250233f510c42a62ecf0dd2cdce38a0e2"
+ },
+ "frozen_utc": "2026-09-23T03:49:37.792104Z",
+ "manifest_counts": {
+  "balanced_panel_tickers": 812,
+  "events": 12533,
+  "events_by_period": {
+   "P1": 3420,
+   "P2": 3405,
+   "P3": 1684,
+   "P4": 1663,
+   "P5": 830,
+   "P6": 1531
+  },
+  "prospective_events": 757,
+  "requests_by_model": {
+   "jev": 38956,
+   "llama31": 11124,
+   "sonnet5": 3708
+  }
+ },
+ "note": "No study event had been sent to any model when this file was written.",
+ "protocol_version": "1.0"
+}

@@ -1,0 +1,758 @@
+event_id,ticker,company,exchange,sector,date,year,month,season,period,sp500
+AAPL|2026-10-29,AAPL,Apple Inc.,NASDAQ,Technology,2026-10-29,2026,2026-10,4,PROSP,True
+ABBV|2026-10-30,ABBV,AbbVie Inc.,NYSE,Healthcare,2026-10-30,2026,2026-10,4,PROSP,True
+ABNB|2026-11-05,ABNB,"Airbnb, Inc.",NASDAQ,Consumer Cyclical,2026-11-05,2026,2026-11,4,PROSP,True
+ABT|2026-10-21,ABT,Abbott Laboratories,NYSE,Healthcare,2026-10-21,2026,2026-10,4,PROSP,True
+ACA|2026-10-29,ACA,"Arcosa, Inc.",NYSE,Basic Materials,2026-10-29,2026,2026-10,4,PROSP,False
+ACGL|2026-10-26,ACGL,Arch Capital Group Ltd.,NASDAQ,Financial Services,2026-10-26,2026,2026-10,4,PROSP,True
+ACI|2026-10-13,ACI,"Albertsons Companies, Inc.",NYSE,Consumer Defensive,2026-10-13,2026,2026-10,4,PROSP,False
+ACN|2026-10-01,ACN,Accenture plc,NYSE,Technology,2026-10-01,2026,2026-10,4,PROSP,True
+ACT|2026-11-04,ACT,Enact Holdings Inc.,NASDAQ,Financial Services,2026-11-04,2026,2026-11,4,PROSP,False
+ADI|2026-11-24,ADI,"Analog Devices, Inc.",NASDAQ,Technology,2026-11-24,2026,2026-11,4,PROSP,True
+ADM|2026-11-03,ADM,Archer-Daniels-Midland Company,NYSE,Consumer Defensive,2026-11-03,2026,2026-11,4,PROSP,True
+ADP|2026-10-28,ADP,"Automatic Data Processing, Inc.",NASDAQ,Technology,2026-10-28,2026,2026-10,4,PROSP,True
+ADSK|2026-11-24,ADSK,"Autodesk, Inc.",NASDAQ,Technology,2026-11-24,2026,2026-11,4,PROSP,True
+ADV|2026-11-05,ADV,Advantage Solutions Inc.,NASDAQ,Communication Services,2026-11-05,2026,2026-11,4,PROSP,False
+AEE|2026-11-04,AEE,Ameren Corporation,NYSE,Utilities,2026-11-04,2026,2026-11,4,PROSP,True
+AEP|2026-11-04,AEP,"American Electric Power Company, Inc.",NASDAQ,Utilities,2026-11-04,2026,2026-11,4,PROSP,True
+AES|2026-11-03,AES,The AES Corporation,NYSE,Utilities,2026-11-03,2026,2026-11,4,PROSP,True
+AFL|2026-11-04,AFL,Aflac Incorporated,NYSE,Financial Services,2026-11-04,2026,2026-11,4,PROSP,True
+AGL|2026-11-03,AGL,"Agilon Health, Inc.",NYSE,Healthcare,2026-11-03,2026,2026-11,4,PROSP,False
+AGRO|2026-11-10,AGRO,Adecoagro S.A.,NYSE,Consumer Defensive,2026-11-10,2026,2026-11,4,PROSP,False
+AIG|2026-11-04,AIG,"American International Group, Inc.",NYSE,Financial Services,2026-11-04,2026,2026-11,4,PROSP,True
+AIZ|2026-11-03,AIZ,"Assurant, Inc.",NYSE,Financial Services,2026-11-03,2026,2026-11,4,PROSP,True
+AJG|2026-10-29,AJG,Arthur J. Gallagher & Co.,NYSE,Financial Services,2026-10-29,2026,2026-10,4,PROSP,True
+AKAM|2026-11-05,AKAM,"Akamai Technologies, Inc.",NASDAQ,Technology,2026-11-05,2026,2026-11,4,PROSP,True
+ALB|2026-11-04,ALB,Albemarle Corporation,NYSE,Basic Materials,2026-11-04,2026,2026-11,4,PROSP,True
+ALGM|2026-10-29,ALGM,"Allegro MicroSystems, Inc.",NASDAQ,Technology,2026-10-29,2026,2026-10,4,PROSP,False
+ALGN|2026-10-28,ALGN,"Align Technology, Inc.",NASDAQ,Healthcare,2026-10-28,2026,2026-10,4,PROSP,True
+ALGS|2026-11-05,ALGS,"Aligos Therapeutics, Inc.",NASDAQ,Healthcare,2026-11-05,2026,2026-11,4,PROSP,False
+ALLE|2026-10-22,ALLE,Allegion plc,NYSE,Industrials,2026-10-22,2026,2026-10,4,PROSP,True
+ALL|2026-11-04,ALL,The Allstate Corporation,NYSE,Financial Services,2026-11-04,2026,2026-11,4,PROSP,True
+ALV|2026-10-23,ALV,"Autoliv, Inc.",NYSE,Consumer Cyclical,2026-10-23,2026,2026-10,4,PROSP,False
+AMAT|2026-11-12,AMAT,"Applied Materials, Inc.",NASDAQ,Technology,2026-11-12,2026,2026-11,4,PROSP,True
+AMCR|2026-11-04,AMCR,Amcor plc,NYSE,Consumer Cyclical,2026-11-04,2026,2026-11,4,PROSP,True
+AMD|2026-11-03,AMD,"Advanced Micro Devices, Inc.",NASDAQ,Technology,2026-11-03,2026,2026-11,4,PROSP,True
+AME|2026-10-29,AME,"AMETEK, Inc.",NYSE,Industrials,2026-10-29,2026,2026-10,4,PROSP,True
+AMGN|2026-11-03,AMGN,Amgen Inc.,NASDAQ,Healthcare,2026-11-03,2026,2026-11,4,PROSP,True
+AMP|2026-10-29,AMP,"Ameriprise Financial, Inc.",NYSE,Financial Services,2026-10-29,2026,2026-10,4,PROSP,True
+AMT|2026-10-27,AMT,American Tower Corporation,NYSE,Real Estate,2026-10-27,2026,2026-10,4,PROSP,True
+AMZN|2026-10-29,AMZN,"Amazon.com, Inc.",NASDAQ,Consumer Cyclical,2026-10-29,2026,2026-10,4,PROSP,True
+ANET|2026-11-03,ANET,"Arista Networks, Inc.",NYSE,Technology,2026-11-03,2026,2026-11,4,PROSP,True
+ANF|2026-11-24,ANF,Abercrombie & Fitch Co.,NYSE,Consumer Cyclical,2026-11-24,2026,2026-11,4,PROSP,False
+ANGI|2026-11-03,ANGI,Angi Inc.,NASDAQ,Communication Services,2026-11-03,2026,2026-11,4,PROSP,False
+AON|2026-10-30,AON,Aon plc,NYSE,Financial Services,2026-10-30,2026,2026-10,4,PROSP,True
+AORT|2026-11-05,AORT,"Artivion, Inc.",NYSE,Healthcare,2026-11-05,2026,2026-11,4,PROSP,False
+AOS|2026-10-27,AOS,A. O. Smith Corporation,NYSE,Industrials,2026-10-27,2026,2026-10,4,PROSP,True
+APA|2026-11-04,APA,APA Corporation,NASDAQ,Energy,2026-11-04,2026,2026-11,4,PROSP,True
+APD|2026-11-05,APD,"Air Products and Chemicals, Inc.",NYSE,Basic Materials,2026-11-05,2026,2026-11,4,PROSP,True
+APH|2026-10-28,APH,Amphenol Corporation,NYSE,Technology,2026-10-28,2026,2026-10,4,PROSP,True
+API|2026-11-18,API,"Agora, Inc.",NASDAQ,Technology,2026-11-18,2026,2026-11,4,PROSP,False
+APLE|2026-11-05,APLE,"Apple Hospitality REIT, Inc.",NYSE,Real Estate,2026-11-05,2026,2026-11,4,PROSP,False
+APO|2026-11-03,APO,"Apollo Global Management, Inc.",NYSE,Financial Services,2026-11-03,2026,2026-11,4,PROSP,True
+APPF|2026-10-29,APPF,AppFolio Inc.,NASDAQ,Technology,2026-10-29,2026,2026-10,4,PROSP,False
+APP|2026-11-04,APP,AppLovin Corporation,NASDAQ,Technology,2026-11-04,2026,2026-11,4,PROSP,True
+APTV|2026-10-29,APTV,Aptiv PLC,NYSE,Consumer Cyclical,2026-10-29,2026,2026-10,4,PROSP,True
+ARCO|2026-11-18,ARCO,Arcos Dorados Holdings Inc.,NYSE,Consumer Cyclical,2026-11-18,2026,2026-11,4,PROSP,False
+ARCT|2026-11-09,ARCT,Arcturus Therapeutics Holdings Inc.,NASDAQ,Healthcare,2026-11-09,2026,2026-11,4,PROSP,False
+ARES|2026-11-02,ARES,Ares Management Corporation,NYSE,Financial Services,2026-11-02,2026,2026-11,4,PROSP,True
+ARE|2026-10-26,ARE,"Alexandria Real Estate Equities, Inc.",NYSE,Real Estate,2026-10-26,2026,2026-10,4,PROSP,True
+ARIS|2026-11-04,ARIS,Aris Mining Corporation,NYSE,Basic Materials,2026-11-04,2026,2026-11,4,PROSP,False
+ARWR|2026-11-24,ARWR,"Arrowhead Pharmaceuticals, Inc.",NASDAQ,Healthcare,2026-11-24,2026,2026-11,4,PROSP,False
+ARW|2026-10-29,ARW,"Arrow Electronics, Inc.",NYSE,Technology,2026-10-29,2026,2026-10,4,PROSP,False
+ASTE|2026-11-04,ASTE,"Astec Industries, Inc.",NASDAQ,Industrials,2026-11-04,2026,2026-11,4,PROSP,False
+ASTL|2026-11-04,ASTL,Algoma Steel Group Inc.,NASDAQ,Basic Materials,2026-11-04,2026,2026-11,4,PROSP,False
+ASTS|2026-11-09,ASTS,"AST SpaceMobile, Inc.",NASDAQ,Communication Services,2026-11-09,2026,2026-11,4,PROSP,False
+ASX|2026-10-29,ASX,"ASE Technology Holding Co., Ltd.",NYSE,Technology,2026-10-29,2026,2026-10,4,PROSP,False
+ATEN|2026-11-03,ATEN,"A10 Networks, Inc.",NYSE,Technology,2026-11-03,2026,2026-11,4,PROSP,False
+ATMU|2026-11-06,ATMU,Atmus Filtration Technologies Inc.,NYSE,Consumer Cyclical,2026-11-06,2026,2026-11,4,PROSP,False
+ATO|2026-11-04,ATO,Atmos Energy Corporation,NYSE,Utilities,2026-11-04,2026,2026-11,4,PROSP,True
+AVBP|2026-11-16,AVBP,"ArriVent BioPharma, Inc.",NASDAQ,Healthcare,2026-11-16,2026,2026-11,4,PROSP,False
+AVNT|2026-11-04,AVNT,Avient Corporation,NYSE,Basic Materials,2026-11-04,2026,2026-11,4,PROSP,False
+AVY|2026-10-28,AVY,Avery Dennison Corporation,NYSE,Consumer Cyclical,2026-10-28,2026,2026-10,4,PROSP,True
+AWK|2026-10-28,AWK,"American Water Works Company, Inc.",NYSE,Utilities,2026-10-28,2026,2026-10,4,PROSP,True
+AXON|2026-11-03,AXON,"Axon Enterprise, Inc.",NASDAQ,Industrials,2026-11-03,2026,2026-11,4,PROSP,True
+AXP|2026-10-23,AXP,American Express Company,NYSE,Financial Services,2026-10-23,2026,2026-10,4,PROSP,True
+AZTA|2026-11-20,AZTA,"Azenta, Inc.",NASDAQ,Healthcare,2026-11-20,2026,2026-11,4,PROSP,False
+A|2026-11-23,A,"Agilent Technologies, Inc.",NYSE,Healthcare,2026-11-23,2026,2026-11,4,PROSP,True
+BAC|2026-10-14,BAC,Bank of America Corporation,NYSE,Financial Services,2026-10-14,2026,2026-10,4,PROSP,True
+BALL|2026-11-03,BALL,Ball Corporation,NYSE,Consumer Cyclical,2026-11-03,2026,2026-11,4,PROSP,True
+BAX|2026-10-29,BAX,Baxter International Inc.,NYSE,Healthcare,2026-10-29,2026,2026-10,4,PROSP,True
+BA|2026-10-28,BA,The Boeing Company,NYSE,Industrials,2026-10-28,2026,2026-10,4,PROSP,True
+BBBY|2026-10-26,BBBY,Bed Bath & Beyond Inc.,NYSE,Consumer Cyclical,2026-10-26,2026,2026-10,4,PROSP,False
+BBIO|2026-10-28,BBIO,"BridgeBio Pharma, Inc.",NASDAQ,Healthcare,2026-10-28,2026,2026-10,4,PROSP,False
+BBY|2026-11-24,BBY,"Best Buy Co., Inc.",NYSE,Consumer Cyclical,2026-11-24,2026,2026-11,4,PROSP,True
+BDC|2026-10-29,BDC,Belden Inc.,NYSE,Technology,2026-10-29,2026,2026-10,4,PROSP,False
+BDX|2026-11-05,BDX,"Becton, Dickinson and Company",NYSE,Healthcare,2026-11-05,2026,2026-11,4,PROSP,True
+BEAM|2026-11-03,BEAM,Beam Therapeutics Inc.,NASDAQ,Healthcare,2026-11-03,2026,2026-11,4,PROSP,False
+BEN|2026-11-06,BEN,"Franklin Resources, Inc.",NYSE,Financial Services,2026-11-06,2026,2026-11,4,PROSP,True
+BEPC|2026-11-04,BEPC,Brookfield Renewable Corporation,NYSE,Utilities,2026-11-04,2026,2026-11,4,PROSP,False
+BE|2026-10-27,BE,Bloom Energy Corporation,NYSE,Industrials,2026-10-27,2026,2026-10,4,PROSP,True
+BG|2026-11-04,BG,Bunge Global S.A.,NYSE,Consumer Defensive,2026-11-04,2026,2026-11,4,PROSP,True
+BIIB|2026-10-28,BIIB,Biogen Inc.,NASDAQ,Healthcare,2026-10-28,2026,2026-10,4,PROSP,True
+BKNG|2026-10-27,BKNG,Booking Holdings Inc.,NASDAQ,Consumer Cyclical,2026-10-27,2026,2026-10,4,PROSP,True
+BKR|2026-10-22,BKR,Baker Hughes Company,NASDAQ,Energy,2026-10-22,2026,2026-10,4,PROSP,True
+BLKB|2026-11-04,BLKB,"Blackbaud, Inc.",NASDAQ,Technology,2026-11-04,2026,2026-11,4,PROSP,False
+BLK|2026-10-13,BLK,"BlackRock, Inc.",NYSE,Financial Services,2026-10-13,2026,2026-10,4,PROSP,True
+BMBL|2026-11-04,BMBL,Bumble Inc.,NASDAQ,Communication Services,2026-11-04,2026,2026-11,4,PROSP,False
+BMY|2026-10-29,BMY,Bristol-Myers Squibb Company,NYSE,Healthcare,2026-10-29,2026,2026-10,4,PROSP,True
+BNY|2026-10-15,BNY,Bank of New York Mellon Corp,NYSE,Financial Services,2026-10-15,2026,2026-10,4,PROSP,True
+BOOT|2026-11-04,BOOT,"Boot Barn Holdings, Inc.",NYSE,Consumer Cyclical,2026-11-04,2026,2026-11,4,PROSP,False
+BORR|2026-11-18,BORR,Borr Drilling Limited,NYSE,Energy,2026-11-18,2026,2026-11,4,PROSP,False
+BRBR|2026-11-17,BRBR,"BellRing Brands, Inc.",NYSE,Consumer Defensive,2026-11-17,2026,2026-11,4,PROSP,False
+BRK-B|2026-11-07,BRK-B,Berkshire Hathaway Inc.,NYSE,Financial Services,2026-11-07,2026,2026-11,4,PROSP,True
+BRO|2026-10-26,BRO,"Brown & Brown, Inc.",NYSE,Financial Services,2026-10-26,2026,2026-10,4,PROSP,True
+BR|2026-11-03,BR,"Broadridge Financial Solutions, Inc.",NYSE,Technology,2026-11-03,2026,2026-11,4,PROSP,True
+BSX|2026-10-28,BSX,Boston Scientific Corporation,NYSE,Healthcare,2026-10-28,2026,2026-10,4,PROSP,True
+BTBT|2026-11-12,BTBT,"Bit Digital, Inc.",NASDAQ,Financial Services,2026-11-12,2026,2026-11,4,PROSP,False
+BTE|2026-11-05,BTE,Baytex Energy Corp.,NYSE,Energy,2026-11-05,2026,2026-11,4,PROSP,False
+BV|2026-11-18,BV,"BrightView Holdings, Inc.",NYSE,Industrials,2026-11-18,2026,2026-11,4,PROSP,False
+BWMX|2026-10-22,BWMX,"Betterware de Mexico, S.A.P.I. de C.V.",NYSE,Consumer Cyclical,2026-10-22,2026,2026-10,4,PROSP,False
+BWXT|2026-11-02,BWXT,"BWX Technologies, Inc.",NYSE,Industrials,2026-11-02,2026,2026-11,4,PROSP,False
+BXP|2026-10-27,BXP,"BXP, Inc.",NYSE,Real Estate,2026-10-27,2026,2026-10,4,PROSP,True
+BX|2026-10-22,BX,Blackstone Inc.,NYSE,Financial Services,2026-10-22,2026,2026-10,4,PROSP,True
+CACI|2026-10-28,CACI,CACI International Inc,NYSE,Technology,2026-10-28,2026,2026-10,4,PROSP,False
+CAH|2026-10-29,CAH,"Cardinal Health, Inc.",NYSE,Healthcare,2026-10-29,2026,2026-10,4,PROSP,True
+CARR|2026-10-27,CARR,Carrier Global Corporation,NYSE,Industrials,2026-10-27,2026,2026-10,4,PROSP,True
+CAT|2026-11-04,CAT,Caterpillar Inc.,NYSE,Industrials,2026-11-04,2026,2026-11,4,PROSP,True
+CBLL|2026-11-03,CBLL,"CeriBell, Inc.",NASDAQ,Healthcare,2026-11-03,2026,2026-11,4,PROSP,False
+CBOE|2026-10-30,CBOE,"Cboe Global Markets, Inc.",CBOE,Financial Services,2026-10-30,2026,2026-10,4,PROSP,True
+CBRE|2026-10-22,CBRE,"CBRE Group, Inc.",NYSE,Real Estate,2026-10-22,2026,2026-10,4,PROSP,True
+CB|2026-10-27,CB,Chubb Limited,NYSE,Financial Services,2026-10-27,2026,2026-10,4,PROSP,True
+CCI|2026-10-21,CCI,Crown Castle Inc.,NYSE,Real Estate,2026-10-21,2026,2026-10,4,PROSP,True
+CCJ|2026-10-30,CCJ,Cameco Corporation,NYSE,Energy,2026-10-30,2026,2026-10,4,PROSP,False
+CDNS|2026-10-26,CDNS,"Cadence Design Systems, Inc.",NASDAQ,Technology,2026-10-26,2026,2026-10,4,PROSP,True
+CDRE|2026-11-03,CDRE,"Cadre Holdings, Inc.",NYSE,Industrials,2026-11-03,2026,2026-11,4,PROSP,False
+CDW|2026-11-03,CDW,CDW Corporation,NASDAQ,Technology,2026-11-03,2026,2026-11,4,PROSP,True
+CDXS|2026-11-05,CDXS,"Codexis, Inc.",NASDAQ,Healthcare,2026-11-05,2026,2026-11,4,PROSP,False
+CEG|2026-11-09,CEG,Constellation Energy Corporation,NASDAQ,Utilities,2026-11-09,2026,2026-11,4,PROSP,True
+CEVA|2026-11-09,CEVA,"CEVA, Inc.",NASDAQ,Technology,2026-11-09,2026,2026-11,4,PROSP,False
+CFG|2026-10-16,CFG,"Citizens Financial Group, Inc.",NYSE,Financial Services,2026-10-16,2026,2026-10,4,PROSP,True
+CF|2026-11-04,CF,"CF Industries Holdings, Inc.",NYSE,Basic Materials,2026-11-04,2026,2026-11,4,PROSP,True
+CGBD|2026-11-03,CGBD,"Carlyle Secured Lending, Inc.",NASDAQ,Financial Services,2026-11-03,2026,2026-11,4,PROSP,False
+CHD|2026-10-30,CHD,"Church & Dwight Co., Inc.",NYSE,Consumer Defensive,2026-10-30,2026,2026-10,4,PROSP,True
+CHRW|2026-11-04,CHRW,"C.H. Robinson Worldwide, Inc.",NASDAQ,Industrials,2026-11-04,2026,2026-11,4,PROSP,True
+CHTR|2026-10-30,CHTR,"Charter Communications, Inc.",NASDAQ,Communication Services,2026-10-30,2026,2026-10,4,PROSP,True
+CINF|2026-10-26,CINF,Cincinnati Financial Corporation,NASDAQ,Financial Services,2026-10-26,2026,2026-10,4,PROSP,True
+CI|2026-10-29,CI,Cigna Corporation,NYSE,Healthcare,2026-10-29,2026,2026-10,4,PROSP,True
+CLDX|2026-11-09,CLDX,"Celldex Therapeutics, Inc.",NASDAQ,Healthcare,2026-11-09,2026,2026-11,4,PROSP,False
+CLX|2026-11-03,CLX,The Clorox Company,NYSE,Consumer Defensive,2026-11-03,2026,2026-11,4,PROSP,True
+CL|2026-10-30,CL,Colgate-Palmolive Company,NYSE,Consumer Defensive,2026-10-30,2026,2026-10,4,PROSP,True
+CMCSA|2026-10-22,CMCSA,Comcast Corporation,NASDAQ,Communication Services,2026-10-22,2026,2026-10,4,PROSP,True
+CMC|2026-10-15,CMC,Commercial Metals Company,NYSE,Basic Materials,2026-10-15,2026,2026-10,4,PROSP,False
+CME|2026-10-21,CME,CME Group Inc.,NASDAQ,Financial Services,2026-10-21,2026,2026-10,4,PROSP,True
+CMG|2026-10-28,CMG,"Chipotle Mexican Grill, Inc.",NYSE,Consumer Cyclical,2026-10-28,2026,2026-10,4,PROSP,True
+CMI|2026-11-05,CMI,Cummins Inc.,NYSE,Industrials,2026-11-05,2026,2026-11,4,PROSP,True
+CMS|2026-10-29,CMS,CMS Energy Corporation,NYSE,Utilities,2026-10-29,2026,2026-10,4,PROSP,True
+CNC|2026-10-27,CNC,Centene Corp.,NYSE,Healthcare,2026-10-27,2026,2026-10,4,PROSP,True
+CNMD|2026-11-04,CNMD,CONMED Corporation,NYSE,Healthcare,2026-11-04,2026,2026-11,4,PROSP,False
+CNP|2026-10-22,CNP,"CenterPoint Energy, Inc.",NYSE,Utilities,2026-10-22,2026,2026-10,4,PROSP,True
+COF|2026-10-20,COF,Capital One Financial Corporation,NYSE,Financial Services,2026-10-20,2026,2026-10,4,PROSP,True
+COHR|2026-11-04,COHR,"Coherent, Inc.",NYSE,Technology,2026-11-04,2026,2026-11,4,PROSP,True
+COIN|2026-10-29,COIN,"Coinbase Global, Inc.",NASDAQ,Financial Services,2026-10-29,2026,2026-10,4,PROSP,True
+COLM|2026-10-29,COLM,Columbia Sportswear Company,NASDAQ,Consumer Cyclical,2026-10-29,2026,2026-10,4,PROSP,False
+COP|2026-11-05,COP,ConocoPhillips,NYSE,Energy,2026-11-05,2026,2026-11,4,PROSP,True
+CORZ|2026-10-23,CORZ,"Core Scientific, Inc.",NASDAQ,Technology,2026-10-23,2026,2026-10,4,PROSP,False
+COR|2026-11-04,COR,"Cencora, Inc.",NYSE,Healthcare,2026-11-04,2026,2026-11,4,PROSP,True
+CPAY|2026-11-04,CPAY,"Corpay, Inc.",NYSE,Technology,2026-11-04,2026,2026-11,4,PROSP,True
+CPRI|2026-11-03,CPRI,Capri Holdings Limited,NYSE,Consumer Cyclical,2026-11-03,2026,2026-11,4,PROSP,False
+CPRT|2026-11-19,CPRT,"Copart, Inc.",NASDAQ,Industrials,2026-11-19,2026,2026-11,4,PROSP,True
+CPT|2026-11-05,CPT,Camden Property Trust,NYSE,Real Estate,2026-11-05,2026,2026-11,4,PROSP,True
+CRAI|2026-10-29,CRAI,"CRA International, Inc.",NASDAQ,Industrials,2026-10-29,2026,2026-10,4,PROSP,False
+CRH|2026-11-04,CRH,CRH plc,NYSE,Basic Materials,2026-11-04,2026,2026-11,4,PROSP,True
+CRK|2026-11-02,CRK,"Comstock Resources, Inc.",NYSE,Energy,2026-11-02,2026,2026-11,4,PROSP,False
+CRL|2026-11-04,CRL,"Charles River Laboratories International, Inc.",NYSE,Healthcare,2026-11-04,2026,2026-11,4,PROSP,True
+CROX|2026-10-29,CROX,"Crocs, Inc.",NASDAQ,Consumer Cyclical,2026-10-29,2026,2026-10,4,PROSP,False
+CRS|2026-10-22,CRS,Carpenter Technology Corporation,NYSE,Basic Materials,2026-10-22,2026,2026-10,4,PROSP,False
+CSCO|2026-11-11,CSCO,"Cisco Systems, Inc.",NASDAQ,Technology,2026-11-11,2026,2026-11,4,PROSP,True
+CSGP|2026-10-27,CSGP,"CoStar Group, Inc.",NASDAQ,Real Estate,2026-10-27,2026,2026-10,4,PROSP,True
+CSL|2026-11-04,CSL,Carlisle Companies Incorporated,NYSE,Basic Materials,2026-11-04,2026,2026-11,4,PROSP,False
+CSX|2026-10-21,CSX,CSX Corporation,NASDAQ,Industrials,2026-10-21,2026,2026-10,4,PROSP,True
+CTSH|2026-11-04,CTSH,Cognizant Technology Solutions Corporation,NASDAQ,Technology,2026-11-04,2026,2026-11,4,PROSP,True
+CTS|2026-10-27,CTS,CTS Corporation,NYSE,Technology,2026-10-27,2026,2026-10,4,PROSP,False
+CTVA|2026-11-03,CTVA,"Corteva, Inc.",NYSE,Basic Materials,2026-11-03,2026,2026-11,4,PROSP,True
+CUBE|2026-10-29,CUBE,CubeSmart,NYSE,Real Estate,2026-10-29,2026,2026-10,4,PROSP,False
+CVCO|2026-10-29,CVCO,"Cavco Industries, Inc.",NASDAQ,Consumer Cyclical,2026-10-29,2026,2026-10,4,PROSP,False
+CVLT|2026-10-27,CVLT,"Commvault Systems, Inc.",NASDAQ,Technology,2026-10-27,2026,2026-10,4,PROSP,False
+CVNA|2026-10-28,CVNA,Carvana Co.,NYSE,Consumer Cyclical,2026-10-28,2026,2026-10,4,PROSP,True
+CVS|2026-11-04,CVS,CVS Health Corp.,NYSE,Healthcare,2026-11-04,2026,2026-11,4,PROSP,True
+CVX|2026-10-30,CVX,Chevron Corporation,NYSE,Energy,2026-10-30,2026,2026-10,4,PROSP,True
+CWST|2026-11-04,CWST,"Casella Waste Systems, Inc.",NASDAQ,Industrials,2026-11-04,2026,2026-11,4,PROSP,False
+CYH|2026-10-22,CYH,"Community Health Systems, Inc.",NYSE,Healthcare,2026-10-22,2026,2026-10,4,PROSP,False
+CYTK|2026-11-04,CYTK,"Cytokinetics, Incorporated",NASDAQ,Healthcare,2026-11-04,2026,2026-11,4,PROSP,False
+C|2026-10-13,C,Citigroup Inc.,NYSE,Financial Services,2026-10-13,2026,2026-10,4,PROSP,True
+DAL|2026-10-09,DAL,"Delta Air Lines, Inc.",NYSE,Industrials,2026-10-09,2026,2026-10,4,PROSP,True
+DASH|2026-11-04,DASH,"DoorDash, Inc.",NASDAQ,Communication Services,2026-11-04,2026,2026-11,4,PROSP,True
+DAVE|2026-11-03,DAVE,Dave Inc.,NASDAQ,Technology,2026-11-03,2026,2026-11,4,PROSP,False
+DBRG|2026-10-29,DBRG,"DigitalBridge Group, Inc.",NYSE,Financial Services,2026-10-29,2026,2026-10,4,PROSP,False
+DDD|2026-11-03,DDD,3D Systems Corporation,NYSE,Technology,2026-11-03,2026,2026-11,4,PROSP,False
+DDOG|2026-11-05,DDOG,"Datadog, Inc.",NASDAQ,Technology,2026-11-05,2026,2026-11,4,PROSP,True
+DD|2026-11-05,DD,"DuPont de Nemours, Inc.",NYSE,Basic Materials,2026-11-05,2026,2026-11,4,PROSP,True
+DECK|2026-10-22,DECK,Deckers Outdoor Corporation,NYSE,Consumer Cyclical,2026-10-22,2026,2026-10,4,PROSP,True
+DELL|2026-11-24,DELL,Dell Technologies Inc.,NYSE,Technology,2026-11-24,2026,2026-11,4,PROSP,True
+DE|2026-11-25,DE,Deere & Company,NYSE,Industrials,2026-11-25,2026,2026-11,4,PROSP,True
+DGII|2026-11-11,DGII,Digi International Inc.,NASDAQ,Technology,2026-11-11,2026,2026-11,4,PROSP,False
+DGX|2026-10-20,DGX,Quest Diagnostics Incorporated,NYSE,Healthcare,2026-10-20,2026,2026-10,4,PROSP,True
+DHI|2026-10-29,DHI,"D.R. Horton, Inc.",NYSE,Consumer Cyclical,2026-10-29,2026,2026-10,4,PROSP,True
+DHR|2026-10-20,DHR,Danaher Corporation,NYSE,Healthcare,2026-10-20,2026,2026-10,4,PROSP,True
+DIN|2026-11-04,DIN,"Dine Brands Global, Inc.",NYSE,Consumer Cyclical,2026-11-04,2026,2026-11,4,PROSP,False
+DIS|2026-11-12,DIS,The Walt Disney Company,NYSE,Communication Services,2026-11-12,2026,2026-11,4,PROSP,True
+DKL|2026-11-06,DKL,"Delek Logistics Partners, LP",NYSE,Energy,2026-11-06,2026,2026-11,4,PROSP,False
+DK|2026-11-06,DK,"Delek US Holdings, Inc.",NYSE,Energy,2026-11-06,2026,2026-11,4,PROSP,False
+DLR|2026-10-22,DLR,"Digital Realty Trust, Inc.",NYSE,Real Estate,2026-10-22,2026,2026-10,4,PROSP,True
+DNN|2026-11-03,DNN,Denison Mines Corp.,AMEX,Energy,2026-11-03,2026,2026-11,4,PROSP,False
+DOC|2026-10-22,DOC,"Healthpeak Properties, Inc.",NYSE,Real Estate,2026-10-22,2026,2026-10,4,PROSP,True
+DOV|2026-10-22,DOV,Dover Corporation,NYSE,Industrials,2026-10-22,2026,2026-10,4,PROSP,True
+DOW|2026-10-22,DOW,Dow Inc.,NYSE,Basic Materials,2026-10-22,2026,2026-10,4,PROSP,True
+DPZ|2026-10-13,DPZ,"Domino's Pizza, Inc.",NASDAQ,Consumer Cyclical,2026-10-13,2026,2026-10,4,PROSP,True
+DTE|2026-10-29,DTE,DTE Energy Company,NYSE,Utilities,2026-10-29,2026,2026-10,4,PROSP,True
+DUK|2026-11-05,DUK,Duke Energy Corporation,NYSE,Utilities,2026-11-05,2026,2026-11,4,PROSP,True
+DVA|2026-10-28,DVA,DaVita Inc.,NYSE,Healthcare,2026-10-28,2026,2026-10,4,PROSP,True
+DVN|2026-11-04,DVN,Devon Energy Corporation,NYSE,Energy,2026-11-04,2026,2026-11,4,PROSP,True
+DV|2026-11-06,DV,"DoubleVerify Holdings, Inc.",NYSE,Technology,2026-11-06,2026,2026-11,4,PROSP,False
+DXCM|2026-10-29,DXCM,"DexCom, Inc.",NASDAQ,Healthcare,2026-10-29,2026,2026-10,4,PROSP,True
+DYN|2026-11-04,DYN,"Dyne Therapeutics, Inc.",NASDAQ,Healthcare,2026-11-04,2026,2026-11,4,PROSP,False
+D|2026-10-30,D,"Dominion Energy, Inc.",NYSE,Utilities,2026-10-30,2026,2026-10,4,PROSP,True
+EBAY|2026-11-04,EBAY,eBay Inc.,NASDAQ,Consumer Cyclical,2026-11-04,2026,2026-11,4,PROSP,True
+EBC|2026-10-22,EBC,"Eastern Bankshares, Inc.",NASDAQ,Financial Services,2026-10-22,2026,2026-10,4,PROSP,False
+ECG|2026-11-03,ECG,"Everus Construction Group, Inc.",NYSE,Industrials,2026-11-03,2026,2026-11,4,PROSP,False
+ECHO|2026-11-05,ECHO,EchoStar Corporation,NASDAQ,Communication Services,2026-11-05,2026,2026-11,4,PROSP,True
+ECL|2026-10-27,ECL,Ecolab Inc.,NYSE,Basic Materials,2026-10-27,2026,2026-10,4,PROSP,True
+ECVT|2026-11-03,ECVT,Ecovyst Inc.,NYSE,Basic Materials,2026-11-03,2026,2026-11,4,PROSP,False
+EDIT|2026-11-09,EDIT,"Editas Medicine, Inc.",NASDAQ,Healthcare,2026-11-09,2026,2026-11,4,PROSP,False
+ED|2026-11-05,ED,"Consolidated Edison, Inc.",NYSE,Utilities,2026-11-05,2026,2026-11,4,PROSP,True
+EFX|2026-10-20,EFX,Equifax Inc.,NYSE,Industrials,2026-10-20,2026,2026-10,4,PROSP,True
+EG|2026-10-28,EG,"Everest Group, Ltd.",NYSE,Financial Services,2026-10-28,2026,2026-10,4,PROSP,True
+EIX|2026-10-27,EIX,Edison International,NYSE,Utilities,2026-10-27,2026,2026-10,4,PROSP,True
+ELV|2026-10-21,ELV,Elevance Health Inc.,NYSE,Healthcare,2026-10-21,2026,2026-10,4,PROSP,True
+EL|2026-11-02,EL,The Estée Lauder Companies Inc.,NYSE,Consumer Defensive,2026-11-02,2026,2026-11,4,PROSP,True
+EMBC|2026-11-24,EMBC,Embecta Corp.,NASDAQ,Healthcare,2026-11-24,2026,2026-11,4,PROSP,False
+EME|2026-10-29,EME,"EMCOR Group, Inc.",NYSE,Industrials,2026-10-29,2026,2026-10,4,PROSP,True
+EMR|2026-11-04,EMR,Emerson Electric Co.,NYSE,Industrials,2026-11-04,2026,2026-11,4,PROSP,True
+ENR|2026-11-17,ENR,"Energizer Holdings, Inc.",NYSE,Industrials,2026-11-17,2026,2026-11,4,PROSP,False
+EOG|2026-11-05,EOG,"EOG Resources, Inc.",NYSE,Energy,2026-11-05,2026,2026-11,4,PROSP,True
+EPAC|2026-10-21,EPAC,Enerpac Tool Group Corp.,NYSE,Industrials,2026-10-21,2026,2026-10,4,PROSP,False
+EQIX|2026-11-04,EQIX,"Equinix, Inc.",NASDAQ,Real Estate,2026-11-04,2026,2026-11,4,PROSP,True
+EQT|2026-10-20,EQT,EQT Corporation,NYSE,Energy,2026-10-20,2026,2026-10,4,PROSP,True
+ERIE|2026-10-29,ERIE,Erie Indemnity Company,NASDAQ,Financial Services,2026-10-29,2026,2026-10,4,PROSP,True
+ESS|2026-10-27,ESS,"Essex Property Trust, Inc.",NYSE,Real Estate,2026-10-27,2026,2026-10,4,PROSP,True
+ES|2026-11-03,ES,Eversource Energy,NYSE,Utilities,2026-11-03,2026,2026-11,4,PROSP,True
+ETN|2026-11-03,ETN,Eaton Corporation plc,NYSE,Industrials,2026-11-03,2026,2026-11,4,PROSP,True
+ETR|2026-11-04,ETR,Entergy Corporation,NYSE,Utilities,2026-11-04,2026,2026-11,4,PROSP,True
+ETSY|2026-11-04,ETSY,"Etsy, Inc.",NYSE,Consumer Cyclical,2026-11-04,2026,2026-11,4,PROSP,False
+EVCM|2026-11-05,EVCM,EverCommerce Inc.,NASDAQ,Technology,2026-11-05,2026,2026-11,4,PROSP,False
+EVER|2026-11-02,EVER,"EverQuote, Inc.",NASDAQ,Communication Services,2026-11-02,2026,2026-11,4,PROSP,False
+EVLV|2026-11-12,EVLV,"Evolv Technologies Holdings, Inc.",NASDAQ,Industrials,2026-11-12,2026,2026-11,4,PROSP,False
+EVRG|2026-11-05,EVRG,"Evergy, Inc.",NASDAQ,Utilities,2026-11-05,2026,2026-11,4,PROSP,True
+EW|2026-10-29,EW,Edwards Lifesciences Corporation,NYSE,Healthcare,2026-10-29,2026,2026-10,4,PROSP,True
+EXC|2026-11-03,EXC,Exelon Corporation,NASDAQ,Utilities,2026-11-03,2026,2026-11,4,PROSP,True
+EXEL|2026-11-03,EXEL,"Exelixis, Inc.",NASDAQ,Healthcare,2026-11-03,2026,2026-11,4,PROSP,False
+EXE|2026-10-27,EXE,Expand Energy Corporation,NASDAQ,Energy,2026-10-27,2026,2026-10,4,PROSP,True
+EXPD|2026-11-03,EXPD,"Expeditors International of Washington, Inc.",NYSE,Industrials,2026-11-03,2026,2026-11,4,PROSP,True
+EXPE|2026-11-05,EXPE,"Expedia Group, Inc.",NASDAQ,Consumer Cyclical,2026-11-05,2026,2026-11,4,PROSP,True
+EXR|2026-11-04,EXR,Extra Space Storage Inc.,NYSE,Real Estate,2026-11-04,2026,2026-11,4,PROSP,True
+FANG|2026-11-02,FANG,"Diamondback Energy, Inc.",NASDAQ,Energy,2026-11-02,2026,2026-11,4,PROSP,True
+FAST|2026-10-14,FAST,Fastenal Company,NASDAQ,Industrials,2026-10-14,2026,2026-10,4,PROSP,True
+FATE|2026-11-12,FATE,"Fate Therapeutics, Inc.",NASDAQ,Healthcare,2026-11-12,2026,2026-11,4,PROSP,False
+FBIN|2026-10-29,FBIN,"Fortune Brands Innovations, Inc.",NYSE,Basic Materials,2026-10-29,2026,2026-10,4,PROSP,False
+FCX|2026-10-22,FCX,Freeport-McMoRan Inc.,NYSE,Basic Materials,2026-10-22,2026,2026-10,4,PROSP,True
+FDX|2026-10-28,FDX,FedEx Corporation,NYSE,Industrials,2026-10-28,2026,2026-10,4,PROSP,True
+FERG|2026-11-05,FERG,Ferguson plc,NYSE,Industrials,2026-11-05,2026,2026-11,4,PROSP,True
+FE|2026-10-21,FE,FirstEnergy Corp.,NYSE,Utilities,2026-10-21,2026,2026-10,4,PROSP,True
+FFIV|2026-10-26,FFIV,"F5, Inc.",NASDAQ,Technology,2026-10-26,2026,2026-10,4,PROSP,True
+FICO|2026-11-04,FICO,Fair Isaac Corporation,NYSE,Technology,2026-11-04,2026,2026-11,4,PROSP,True
+FISV|2026-10-28,FISV,"Fiserv, Inc.",NASDAQ,Technology,2026-10-28,2026,2026-10,4,PROSP,True
+FIS|2026-11-04,FIS,"Fidelity National Information Services, Inc.",NYSE,Technology,2026-11-04,2026,2026-11,4,PROSP,True
+FITB|2026-10-19,FITB,Fifth Third Bancorp,NYSE,Financial Services,2026-10-19,2026,2026-10,4,PROSP,True
+FIVN|2026-11-09,FIVN,"Five9, Inc.",NASDAQ,Technology,2026-11-09,2026,2026-11,4,PROSP,False
+FIX|2026-10-22,FIX,"Comfort Systems USA, Inc.",NYSE,Industrials,2026-10-22,2026,2026-10,4,PROSP,True
+FLEX|2026-11-04,FLEX,Flex Ltd.,NASDAQ,Technology,2026-11-04,2026,2026-11,4,PROSP,True
+FOX|2026-10-29,FOX,Fox Corporation,NASDAQ,Communication Services,2026-10-29,2026,2026-10,4,PROSP,True
+FROG|2026-11-05,FROG,JFrog Ltd.,NASDAQ,Technology,2026-11-05,2026,2026-11,4,PROSP,False
+FRO|2026-11-30,FRO,Frontline Plc,NYSE,Industrials,2026-11-30,2026,2026-11,4,PROSP,False
+FRT|2026-10-30,FRT,Federal Realty Investment Trust,NYSE,Real Estate,2026-10-30,2026,2026-10,4,PROSP,True
+FSLR|2026-10-29,FSLR,"First Solar, Inc.",NASDAQ,Energy,2026-10-29,2026,2026-10,4,PROSP,True
+FTI|2026-10-29,FTI,TechnipFMC plc,NYSE,Energy,2026-10-29,2026,2026-10,4,PROSP,False
+FTNT|2026-11-04,FTNT,"Fortinet, Inc.",NASDAQ,Technology,2026-11-04,2026,2026-11,4,PROSP,True
+FTV|2026-10-28,FTV,Fortive Corporation,NYSE,Technology,2026-10-28,2026,2026-10,4,PROSP,True
+FVRR|2026-11-04,FVRR,Fiverr International Ltd.,NYSE,Communication Services,2026-11-04,2026,2026-11,4,PROSP,False
+F|2026-10-22,F,Ford Motor Company,NYSE,Consumer Cyclical,2026-10-22,2026,2026-10,4,PROSP,True
+GCT|2026-11-05,GCT,GigaCloud Technology Inc.,NASDAQ,Technology,2026-11-05,2026,2026-11,4,PROSP,False
+GDDY|2026-10-29,GDDY,GoDaddy Inc.,NYSE,Technology,2026-10-29,2026,2026-10,4,PROSP,True
+GD|2026-10-28,GD,General Dynamics Corporation,NYSE,Industrials,2026-10-28,2026,2026-10,4,PROSP,True
+GEHC|2026-11-04,GEHC,GE HealthCare Technologies Inc.,NASDAQ,Healthcare,2026-11-04,2026,2026-11,4,PROSP,True
+GEN|2026-11-05,GEN,Gen Digital Inc.,NASDAQ,Technology,2026-11-05,2026,2026-11,4,PROSP,True
+GEO|2026-11-05,GEO,"The GEO Group, Inc.",NYSE,Industrials,2026-11-05,2026,2026-11,4,PROSP,False
+GERN|2026-11-04,GERN,Geron Corporation,NASDAQ,Healthcare,2026-11-04,2026,2026-11,4,PROSP,False
+GEV|2026-10-28,GEV,GE Vernova Inc.,NYSE,Industrials,2026-10-28,2026,2026-10,4,PROSP,True
+GE|2026-10-20,GE,GE Aerospace,NYSE,Industrials,2026-10-20,2026,2026-10,4,PROSP,True
+GH|2026-10-28,GH,"Guardant Health, Inc.",NASDAQ,Healthcare,2026-10-28,2026,2026-10,4,PROSP,False
+GILD|2026-10-29,GILD,"Gilead Sciences, Inc.",NASDAQ,Healthcare,2026-10-29,2026,2026-10,4,PROSP,True
+GLBE|2026-11-18,GLBE,Global-e Online Ltd.,NASDAQ,Consumer Cyclical,2026-11-18,2026,2026-11,4,PROSP,False
+GLP|2026-11-06,GLP,Global Partners LP,NYSE,Energy,2026-11-06,2026,2026-11,4,PROSP,False
+GLW|2026-10-27,GLW,Corning Inc,NYSE,Technology,2026-10-27,2026,2026-10,4,PROSP,True
+GL|2026-10-28,GL,Globe Life Inc.,NYSE,Financial Services,2026-10-28,2026,2026-10,4,PROSP,True
+GM|2026-10-20,GM,General Motors Company,NYSE,Consumer Cyclical,2026-10-20,2026,2026-10,4,PROSP,True
+GNRC|2026-11-04,GNRC,Generac Holdings Inc.,NYSE,Industrials,2026-11-04,2026,2026-11,4,PROSP,True
+GOOG|2026-10-28,GOOG,Alphabet Inc.,NASDAQ,Communication Services,2026-10-28,2026,2026-10,4,PROSP,True
+GPCR|2026-11-05,GPCR,Structure Therapeutics Inc.,NASDAQ,Healthcare,2026-11-05,2026,2026-11,4,PROSP,False
+GPC|2026-10-20,GPC,Genuine Parts Company,NYSE,Consumer Cyclical,2026-10-20,2026,2026-10,4,PROSP,True
+GPI|2026-10-27,GPI,"Group 1 Automotive, Inc.",NYSE,Consumer Cyclical,2026-10-27,2026,2026-10,4,PROSP,False
+GPN|2026-11-03,GPN,Global Payments Inc.,NYSE,Financial Services,2026-11-03,2026,2026-11,4,PROSP,True
+GRMN|2026-11-04,GRMN,Garmin Ltd.,NYSE,Technology,2026-11-04,2026,2026-11,4,PROSP,True
+GRPN|2026-11-05,GRPN,"Groupon, Inc.",NASDAQ,Communication Services,2026-11-05,2026,2026-11,4,PROSP,False
+GS|2026-10-13,GS,"The Goldman Sachs Group, Inc.",NYSE,Financial Services,2026-10-13,2026,2026-10,4,PROSP,True
+GTES|2026-10-30,GTES,Gates Industrial Corporation plc,NYSE,Industrials,2026-10-30,2026,2026-10,4,PROSP,False
+GVA|2026-11-05,GVA,Granite Construction Incorporated,NYSE,Industrials,2026-11-05,2026,2026-11,4,PROSP,False
+GWW|2026-11-04,GWW,"W.W. Grainger, Inc.",NYSE,Industrials,2026-11-04,2026,2026-11,4,PROSP,True
+HAL|2026-10-20,HAL,Halliburton Company,NYSE,Energy,2026-10-20,2026,2026-10,4,PROSP,True
+HAS|2026-10-22,HAS,"Hasbro, Inc.",NASDAQ,Consumer Cyclical,2026-10-22,2026,2026-10,4,PROSP,True
+HBAN|2026-10-22,HBAN,Huntington Bancshares Incorporated,NASDAQ,Financial Services,2026-10-22,2026,2026-10,4,PROSP,True
+HCA|2026-10-23,HCA,"HCA Healthcare, Inc.",NYSE,Healthcare,2026-10-23,2026,2026-10,4,PROSP,True
+HD|2026-11-17,HD,"The Home Depot, Inc.",NYSE,Consumer Cyclical,2026-11-17,2026,2026-11,4,PROSP,True
+HESM|2026-11-02,HESM,Hess Midstream LP,NYSE,Energy,2026-11-02,2026,2026-11,4,PROSP,False
+HIG|2026-10-26,HIG,"The Hartford Insurance Group, Inc.",NYSE,Financial Services,2026-10-26,2026,2026-10,4,PROSP,True
+HII|2026-10-29,HII,"Huntington Ingalls Industries, Inc.",NYSE,Industrials,2026-10-29,2026,2026-10,4,PROSP,True
+HLF|2026-11-04,HLF,Herbalife Nutrition Ltd.,NYSE,Consumer Defensive,2026-11-04,2026,2026-11,4,PROSP,False
+HLNE|2026-11-03,HLNE,Hamilton Lane Incorporated,NASDAQ,Financial Services,2026-11-03,2026,2026-11,4,PROSP,False
+HLT|2026-10-28,HLT,Hilton Worldwide Holdings Inc.,NYSE,Consumer Cyclical,2026-10-28,2026,2026-10,4,PROSP,True
+HLX|2026-10-28,HLX,"Helix Energy Solutions Group, Inc.",NYSE,Energy,2026-10-28,2026,2026-10,4,PROSP,False
+HON|2026-10-22,HON,Honeywell International Inc.,NASDAQ,Industrials,2026-10-22,2026,2026-10,4,PROSP,True
+HOOD|2026-11-04,HOOD,"Robinhood Markets, Inc.",NASDAQ,Financial Services,2026-11-04,2026,2026-11,4,PROSP,True
+HPQ|2026-11-24,HPQ,HP Inc.,NYSE,Technology,2026-11-24,2026,2026-11,4,PROSP,True
+HSIC|2026-11-03,HSIC,"Henry Schein, Inc.",NASDAQ,Healthcare,2026-11-03,2026,2026-11,4,PROSP,True
+HST|2026-11-04,HST,"Host Hotels & Resorts, Inc.",NASDAQ,Real Estate,2026-11-04,2026,2026-11,4,PROSP,True
+HSY|2026-10-29,HSY,The Hershey Company,NYSE,Consumer Defensive,2026-10-29,2026,2026-10,4,PROSP,True
+HUBB|2026-10-27,HUBB,Hubbell Incorporated,NYSE,Industrials,2026-10-27,2026,2026-10,4,PROSP,True
+HUM|2026-11-06,HUM,Humana Inc.,NYSE,Healthcare,2026-11-06,2026,2026-11,4,PROSP,True
+HWM|2026-10-29,HWM,Howmet Aerospace Inc.,NYSE,Industrials,2026-10-29,2026,2026-10,4,PROSP,True
+HYFM|2026-11-12,HYFM,"Hydrofarm Holdings Group, Inc.",NASDAQ,Industrials,2026-11-12,2026,2026-11,4,PROSP,False
+HY|2026-11-03,HY,"Hyster-Yale Materials Handling, Inc.",NYSE,Industrials,2026-11-03,2026,2026-11,4,PROSP,False
+IAG|2026-11-03,IAG,Iamgold Corporation,NYSE,Basic Materials,2026-11-03,2026,2026-11,4,PROSP,False
+IART|2026-10-29,IART,Integra LifeSciences Holdings Corporation,NASDAQ,Healthcare,2026-10-29,2026,2026-10,4,PROSP,False
+IBKR|2026-10-20,IBKR,"Interactive Brokers Group, Inc.",NASDAQ,Financial Services,2026-10-20,2026,2026-10,4,PROSP,True
+IBM|2026-10-21,IBM,International Business Machines Corporation,NYSE,Technology,2026-10-21,2026,2026-10,4,PROSP,True
+IBP|2026-11-04,IBP,"Installed Building Products, Inc.",NYSE,Consumer Cyclical,2026-11-04,2026,2026-11,4,PROSP,False
+IBTA|2026-11-11,IBTA,"Ibotta, Inc.",NYSE,Technology,2026-11-11,2026,2026-11,4,PROSP,False
+ICE|2026-10-29,ICE,"Intercontinental Exchange, Inc.",NYSE,Financial Services,2026-10-29,2026,2026-10,4,PROSP,True
+IDXX|2026-11-02,IDXX,"IDEXX Laboratories, Inc.",NASDAQ,Healthcare,2026-11-02,2026,2026-11,4,PROSP,True
+IDYA|2026-11-09,IDYA,"IDEAYA Biosciences, Inc.",NASDAQ,Healthcare,2026-11-09,2026,2026-11,4,PROSP,False
+IEX|2026-10-28,IEX,IDEX Corporation,NYSE,Industrials,2026-10-28,2026,2026-10,4,PROSP,True
+IFF|2026-11-03,IFF,International Flavors & Fragrances Inc.,NYSE,Basic Materials,2026-11-03,2026,2026-11,4,PROSP,True
+IIIV|2026-11-16,IIIV,"i3 Verticals, Inc.",NASDAQ,Technology,2026-11-16,2026,2026-11,4,PROSP,False
+ILMN|2026-10-29,ILMN,"Illumina, Inc.",NASDAQ,Healthcare,2026-10-29,2026,2026-10,4,PROSP,True
+IMCR|2026-11-05,IMCR,Immunocore Holdings plc,NASDAQ,Healthcare,2026-11-05,2026,2026-11,4,PROSP,False
+IMXI|2026-11-09,IMXI,"International Money Express, Inc.",NASDAQ,Technology,2026-11-09,2026,2026-11,4,PROSP,False
+INCY|2026-10-27,INCY,Incyte Corporation,NASDAQ,Healthcare,2026-10-27,2026,2026-10,4,PROSP,True
+INGN|2026-11-04,INGN,"Inogen, Inc.",NASDAQ,Healthcare,2026-11-04,2026,2026-11,4,PROSP,False
+INSG|2026-11-05,INSG,Inseego Corp.,NASDAQ,Technology,2026-11-05,2026,2026-11,4,PROSP,False
+INSP|2026-11-02,INSP,"Inspire Medical Systems, Inc.",NYSE,Healthcare,2026-11-02,2026,2026-11,4,PROSP,False
+INTA|2026-11-03,INTA,"Intapp, Inc.",NASDAQ,Technology,2026-11-03,2026,2026-11,4,PROSP,False
+INTC|2026-10-22,INTC,Intel Corp.,NASDAQ,Technology,2026-10-22,2026,2026-10,4,PROSP,True
+INTU|2026-11-19,INTU,Intuit Inc.,NASDAQ,Technology,2026-11-19,2026,2026-11,4,PROSP,True
+INVH|2026-10-28,INVH,Invitation Homes Inc.,NYSE,Real Estate,2026-10-28,2026,2026-10,4,PROSP,True
+INVX|2026-11-02,INVX,"Innovex International, Inc.",NYSE,Energy,2026-11-02,2026,2026-11,4,PROSP,False
+IONS|2026-11-04,IONS,"Ionis Pharmaceuticals, Inc.",NASDAQ,Healthcare,2026-11-04,2026,2026-11,4,PROSP,False
+IP|2026-10-28,IP,International Paper Company,NYSE,Basic Materials,2026-10-28,2026,2026-10,4,PROSP,True
+IQV|2026-11-03,IQV,IQVIA Holdings Inc.,NYSE,Healthcare,2026-11-03,2026,2026-11,4,PROSP,True
+IRM|2026-11-04,IRM,Iron Mountain Incorporated,NYSE,Real Estate,2026-11-04,2026,2026-11,4,PROSP,True
+IR|2026-10-29,IR,Ingersoll Rand Inc.,NYSE,Industrials,2026-10-29,2026,2026-10,4,PROSP,True
+ISRG|2026-10-20,ISRG,"Intuitive Surgical, Inc.",NASDAQ,Healthcare,2026-10-20,2026,2026-10,4,PROSP,True
+ITRI|2026-10-29,ITRI,"Itron, Inc.",NASDAQ,Technology,2026-10-29,2026,2026-10,4,PROSP,False
+ITW|2026-10-23,ITW,Illinois Tool Works Inc.,NYSE,Industrials,2026-10-23,2026,2026-10,4,PROSP,True
+IT|2026-11-03,IT,"Gartner, Inc.",NYSE,Technology,2026-11-03,2026,2026-11,4,PROSP,True
+IVZ|2026-10-27,IVZ,Invesco Ltd.,NYSE,Financial Services,2026-10-27,2026,2026-10,4,PROSP,True
+JBHT|2026-10-21,JBHT,"J.B. Hunt Transport Services, Inc.",NASDAQ,Industrials,2026-10-21,2026,2026-10,4,PROSP,True
+JBLU|2026-10-27,JBLU,JetBlue Airways Corporation,NASDAQ,Industrials,2026-10-27,2026,2026-10,4,PROSP,False
+JCI|2026-11-04,JCI,Johnson Controls International plc,NYSE,Basic Materials,2026-11-04,2026,2026-11,4,PROSP,True
+JKHY|2026-11-03,JKHY,"Jack Henry & Associates, Inc.",NASDAQ,Technology,2026-11-03,2026,2026-11,4,PROSP,True
+JNJ|2026-10-13,JNJ,Johnson & Johnson,NYSE,Healthcare,2026-10-13,2026,2026-10,4,PROSP,True
+JOBY|2026-11-04,JOBY,"Joby Aviation, Inc.",NYSE,Industrials,2026-11-04,2026,2026-11,4,PROSP,False
+JPM|2026-10-13,JPM,JPMorgan Chase & Co.,NYSE,Financial Services,2026-10-13,2026,2026-10,4,PROSP,True
+J|2026-11-19,J,Jacobs Solutions Inc.,NYSE,Industrials,2026-11-19,2026,2026-11,4,PROSP,True
+KBR|2026-10-29,KBR,"KBR, Inc.",NYSE,Industrials,2026-10-29,2026,2026-10,4,PROSP,False
+KDP|2026-10-26,KDP,Keurig Dr Pepper Inc.,NASDAQ,Consumer Defensive,2026-10-26,2026,2026-10,4,PROSP,True
+KEYS|2026-11-23,KEYS,"Keysight Technologies, Inc.",NYSE,Technology,2026-11-23,2026,2026-11,4,PROSP,True
+KEY|2026-10-20,KEY,KeyCorp,NYSE,Financial Services,2026-10-20,2026,2026-10,4,PROSP,True
+KHC|2026-11-04,KHC,The Kraft Heinz Company,NYSE,Consumer Defensive,2026-11-04,2026,2026-11,4,PROSP,True
+KIM|2026-10-29,KIM,Kimco Realty Corporation,NYSE,Real Estate,2026-10-29,2026,2026-10,4,PROSP,True
+KKR|2026-11-06,KKR,KKR & Co. Inc.,NYSE,Financial Services,2026-11-06,2026,2026-11,4,PROSP,True
+KLAC|2026-10-28,KLAC,KLA Corporation,NASDAQ,Technology,2026-10-28,2026,2026-10,4,PROSP,True
+KMB|2026-10-29,KMB,Kimberly-Clark Corporation,NASDAQ,Consumer Defensive,2026-10-29,2026,2026-10,4,PROSP,True
+KMI|2026-10-28,KMI,"Kinder Morgan, Inc.",NYSE,Energy,2026-10-28,2026,2026-10,4,PROSP,True
+KNF|2026-11-03,KNF,Knife River Corporation,NYSE,Basic Materials,2026-11-03,2026,2026-11,4,PROSP,False
+KOD|2026-11-12,KOD,Kodiak Sciences Inc.,NASDAQ,Healthcare,2026-11-12,2026,2026-11,4,PROSP,False
+KOF|2026-10-23,KOF,"Coca-Cola FEMSA, S.A.B. de C.V.",NYSE,Consumer Defensive,2026-10-23,2026,2026-10,4,PROSP,False
+KOP|2026-11-06,KOP,Koppers Holdings Inc.,NYSE,Basic Materials,2026-11-06,2026,2026-11,4,PROSP,False
+KO|2026-10-20,KO,The Coca-Cola Company,NYSE,Consumer Defensive,2026-10-20,2026,2026-10,4,PROSP,True
+KVUE|2026-11-02,KVUE,Kenvue Inc.,NYSE,Consumer Defensive,2026-11-02,2026,2026-11,4,PROSP,True
+KYMR|2026-11-03,KYMR,"Kymera Therapeutics, Inc.",NASDAQ,Healthcare,2026-11-03,2026,2026-11,4,PROSP,False
+LAC|2026-11-13,LAC,Lithium Americas Corp.,NYSE,Basic Materials,2026-11-13,2026,2026-11,4,PROSP,False
+LBRDA|2026-10-30,LBRDA,Liberty Broadband Corporation,NASDAQ,Communication Services,2026-10-30,2026,2026-10,4,PROSP,False
+LBRDK|2026-10-30,LBRDK,Liberty Broadband Corporation,NASDAQ,Communication Services,2026-10-30,2026,2026-10,4,PROSP,False
+LBRT|2026-10-15,LBRT,Liberty Energy Inc.,NYSE,Energy,2026-10-15,2026,2026-10,4,PROSP,False
+LBTYK|2026-11-03,LBTYK,Liberty Global plc,NASDAQ,Communication Services,2026-11-03,2026,2026-11,4,PROSP,False
+LDOS|2026-11-03,LDOS,"Leidos Holdings, Inc.",NYSE,Technology,2026-11-03,2026,2026-11,4,PROSP,True
+LFST|2026-11-05,LFST,"LifeStance Health Group, Inc.",NASDAQ,Healthcare,2026-11-05,2026,2026-11,4,PROSP,False
+LHX|2026-10-29,LHX,"L3Harris Technologies, Inc.",NYSE,Industrials,2026-10-29,2026,2026-10,4,PROSP,True
+LH|2026-10-27,LH,Labcorp Holdings Inc.,NYSE,Healthcare,2026-10-27,2026,2026-10,4,PROSP,True
+LII|2026-10-28,LII,Lennox International Inc.,NYSE,Industrials,2026-10-28,2026,2026-10,4,PROSP,True
+LIN|2026-10-30,LIN,Linde plc,NASDAQ,Basic Materials,2026-10-30,2026,2026-10,4,PROSP,True
+LITE|2026-11-03,LITE,Lumentum Holdings Inc.,NASDAQ,Technology,2026-11-03,2026,2026-11,4,PROSP,True
+LKQ|2026-10-29,LKQ,LKQ Corporation,NASDAQ,Consumer Cyclical,2026-10-29,2026,2026-10,4,PROSP,False
+LLY|2026-10-29,LLY,Eli Lilly and Company,NYSE,Healthcare,2026-10-29,2026,2026-10,4,PROSP,True
+LMT|2026-10-20,LMT,Lockheed Martin Corporation,NYSE,Industrials,2026-10-20,2026,2026-10,4,PROSP,True
+LNN|2026-10-22,LNN,Lindsay Corporation,NYSE,Industrials,2026-10-22,2026,2026-10,4,PROSP,False
+LNT|2026-11-05,LNT,Alliant Energy Corporation,NASDAQ,Utilities,2026-11-05,2026,2026-11,4,PROSP,True
+LOW|2026-11-18,LOW,"Lowe's Companies, Inc.",NYSE,Consumer Cyclical,2026-11-18,2026,2026-11,4,PROSP,True
+LQDT|2026-11-19,LQDT,"Liquidity Services, Inc.",NASDAQ,Consumer Cyclical,2026-11-19,2026,2026-11,4,PROSP,False
+LRCX|2026-10-21,LRCX,Lam Research Corporation,NASDAQ,Technology,2026-10-21,2026,2026-10,4,PROSP,True
+LTH|2026-11-03,LTH,"Life Time Group Holdings, Inc.",NYSE,Consumer Cyclical,2026-11-03,2026,2026-11,4,PROSP,False
+LUCK|2026-11-03,LUCK,Lucky Strike Entertainment Corporation,NYSE,Consumer Cyclical,2026-11-03,2026,2026-11,4,PROSP,False
+LUV|2026-10-21,LUV,Southwest Airlines Co.,NYSE,Industrials,2026-10-21,2026,2026-10,4,PROSP,True
+LVS|2026-10-21,LVS,Las Vegas Sands Corp.,NYSE,Consumer Cyclical,2026-10-21,2026,2026-10,4,PROSP,True
+LYB|2026-10-30,LYB,LyondellBasell Industries N.V.,NYSE,Basic Materials,2026-10-30,2026,2026-10,4,PROSP,True
+LYV|2026-11-03,LYV,"Live Nation Entertainment, Inc.",NYSE,Communication Services,2026-11-03,2026,2026-11,4,PROSP,True
+LZB|2026-11-17,LZB,La-Z-Boy Incorporated,NYSE,Consumer Cyclical,2026-11-17,2026,2026-11,4,PROSP,False
+LZ|2026-11-04,LZ,"LegalZoom.com, Inc.",NASDAQ,Technology,2026-11-04,2026,2026-11,4,PROSP,False
+MAA|2026-10-28,MAA,"Mid-America Apartment Communities, Inc.",NYSE,Real Estate,2026-10-28,2026,2026-10,4,PROSP,True
+MANH|2026-10-27,MANH,"Manhattan Associates, Inc.",NASDAQ,Technology,2026-10-27,2026,2026-10,4,PROSP,False
+MARA|2026-11-03,MARA,"Marathon Digital Holdings, Inc.",NASDAQ,Financial Services,2026-11-03,2026,2026-11,4,PROSP,False
+MAR|2026-11-03,MAR,"Marriott International, Inc.",NASDAQ,Consumer Cyclical,2026-11-03,2026,2026-11,4,PROSP,True
+MAS|2026-10-29,MAS,Masco Corporation,NYSE,Basic Materials,2026-10-29,2026,2026-10,4,PROSP,True
+MA|2026-10-29,MA,Mastercard Incorporated,NYSE,Financial Services,2026-10-29,2026,2026-10,4,PROSP,True
+MBIN|2026-10-27,MBIN,Merchants Bancorp,NASDAQ,Financial Services,2026-10-27,2026,2026-10,4,PROSP,False
+MCD|2026-11-04,MCD,McDonald's Corporation,NYSE,Consumer Cyclical,2026-11-04,2026,2026-11,4,PROSP,True
+MCHP|2026-11-05,MCHP,Microchip Technology Incorporated,NASDAQ,Technology,2026-11-05,2026,2026-11,4,PROSP,True
+MCK|2026-11-04,MCK,McKesson Corporation,NYSE,Healthcare,2026-11-04,2026,2026-11,4,PROSP,True
+MCO|2026-10-28,MCO,Moody's Corporation,NYSE,Financial Services,2026-10-28,2026,2026-10,4,PROSP,True
+MCRB|2026-11-04,MCRB,"Seres Therapeutics, Inc.",NASDAQ,Healthcare,2026-11-04,2026,2026-11,4,PROSP,False
+MCRI|2026-10-20,MCRI,"Monarch Casino & Resort, Inc.",NASDAQ,Consumer Cyclical,2026-10-20,2026,2026-10,4,PROSP,False
+MDLZ|2026-10-27,MDLZ,"Mondelez International, Inc.",NASDAQ,Consumer Defensive,2026-10-27,2026,2026-10,4,PROSP,True
+MDT|2026-11-17,MDT,Medtronic plc,NYSE,Healthcare,2026-11-17,2026,2026-11,4,PROSP,True
+MD|2026-11-02,MD,"Pediatrix Medical Group, Inc.",NYSE,Healthcare,2026-11-02,2026,2026-11,4,PROSP,False
+MEOH|2026-10-29,MEOH,Methanex Corporation,NASDAQ,Basic Materials,2026-10-29,2026,2026-10,4,PROSP,False
+META|2026-10-28,META,"Meta Platforms, Inc.",NASDAQ,Communication Services,2026-10-28,2026,2026-10,4,PROSP,True
+MET|2026-11-04,MET,"MetLife, Inc.",NYSE,Financial Services,2026-11-04,2026,2026-11,4,PROSP,True
+MGM|2026-11-04,MGM,MGM Resorts International,NYSE,Consumer Cyclical,2026-11-04,2026,2026-11,4,PROSP,True
+MGPI|2026-10-28,MGPI,"MGP Ingredients, Inc.",NASDAQ,Consumer Defensive,2026-10-28,2026,2026-10,4,PROSP,False
+MGY|2026-11-04,MGY,Magnolia Oil & Gas Corporation,NYSE,Energy,2026-11-04,2026,2026-11,4,PROSP,False
+MIDD|2026-11-05,MIDD,The Middleby Corporation,NASDAQ,Industrials,2026-11-05,2026,2026-11,4,PROSP,False
+MKC|2026-10-01,MKC,"McCormick & Company, Incorporated",NYSE,Consumer Defensive,2026-10-01,2026,2026-10,4,PROSP,True
+MLI|2026-10-20,MLI,"Mueller Industries, Inc.",NYSE,Industrials,2026-10-20,2026,2026-10,4,PROSP,False
+MLM|2026-11-03,MLM,"Martin Marietta Materials, Inc.",NYSE,Basic Materials,2026-11-03,2026,2026-11,4,PROSP,True
+MMM|2026-10-20,MMM,3M Company,NYSE,Industrials,2026-10-20,2026,2026-10,4,PROSP,True
+MMYT|2026-10-27,MMYT,MakeMyTrip Limited,NASDAQ,Consumer Cyclical,2026-10-27,2026,2026-10,4,PROSP,False
+MNR|2026-11-05,MNR,Mach Natural Resources LP,NYSE,Energy,2026-11-05,2026,2026-11,4,PROSP,False
+MNST|2026-11-05,MNST,Monster Beverage Corporation,NASDAQ,Consumer Defensive,2026-11-05,2026,2026-11,4,PROSP,True
+MOS|2026-11-03,MOS,The Mosaic Company,NYSE,Basic Materials,2026-11-03,2026,2026-11,4,PROSP,True
+MO|2026-10-29,MO,"Altria Group, Inc.",NYSE,Consumer Defensive,2026-10-29,2026,2026-10,4,PROSP,True
+MPC|2026-11-03,MPC,Marathon Petroleum Corporation,NYSE,Energy,2026-11-03,2026,2026-11,4,PROSP,True
+MPWR|2026-10-29,MPWR,"Monolithic Power Systems, Inc.",NASDAQ,Technology,2026-10-29,2026,2026-10,4,PROSP,True
+MRK|2026-10-29,MRK,"Merck & Co., Inc.",NYSE,Healthcare,2026-10-29,2026,2026-10,4,PROSP,True
+MRNA|2026-11-05,MRNA,"Moderna, Inc.",NASDAQ,Healthcare,2026-11-05,2026,2026-11,4,PROSP,True
+MRSH|2026-10-15,MRSH,"Marsh & McLennan Companies, Inc.",NYSE,Financial Services,2026-10-15,2026,2026-10,4,PROSP,True
+MRVI|2026-11-05,MRVI,"Maravai LifeSciences Holdings, Inc.",NASDAQ,Healthcare,2026-11-05,2026,2026-11,4,PROSP,False
+MSCI|2026-10-20,MSCI,MSCI Inc.,NYSE,Financial Services,2026-10-20,2026,2026-10,4,PROSP,True
+MSFT|2026-10-28,MSFT,Microsoft Corporation,NASDAQ,Technology,2026-10-28,2026,2026-10,4,PROSP,True
+MSGE|2026-11-05,MSGE,Madison Square Garden Entertainment Corp.,NYSE,Communication Services,2026-11-05,2026,2026-11,4,PROSP,False
+MSI|2026-10-29,MSI,"Motorola Solutions, Inc.",NYSE,Technology,2026-10-29,2026,2026-10,4,PROSP,True
+MS|2026-10-14,MS,Morgan Stanley,NYSE,Financial Services,2026-10-14,2026,2026-10,4,PROSP,True
+MTB|2026-10-16,MTB,M&T Bank Corporation,NYSE,Financial Services,2026-10-16,2026,2026-10,4,PROSP,True
+MTD|2026-11-05,MTD,Mettler-Toledo International Inc.,NYSE,Healthcare,2026-11-05,2026,2026-11,4,PROSP,True
+MTZ|2026-10-29,MTZ,"MasTec, Inc.",NYSE,Industrials,2026-10-29,2026,2026-10,4,PROSP,False
+MUSA|2026-10-28,MUSA,Murphy USA Inc.,NYSE,Consumer Cyclical,2026-10-28,2026,2026-10,4,PROSP,False
+MWA|2026-11-05,MWA,"Mueller Water Products, Inc.",NYSE,Industrials,2026-11-05,2026,2026-11,4,PROSP,False
+MYE|2026-11-05,MYE,"Myers Industries, Inc.",NYSE,Consumer Cyclical,2026-11-05,2026,2026-11,4,PROSP,False
+NABL|2026-11-05,NABL,"N-able, Inc.",NYSE,Technology,2026-11-05,2026,2026-11,4,PROSP,False
+NAMS|2026-11-04,NAMS,NewAmsterdam Pharma Company N.V.,NASDAQ,Healthcare,2026-11-04,2026,2026-11,4,PROSP,False
+NCLH|2026-11-04,NCLH,Norwegian Cruise Line Holdings Ltd.,NYSE,Consumer Cyclical,2026-11-04,2026,2026-11,4,PROSP,True
+NCMI|2026-10-29,NCMI,"National CineMedia, Inc.",NASDAQ,Communication Services,2026-10-29,2026,2026-10,4,PROSP,False
+NDAQ|2026-10-20,NDAQ,"Nasdaq, Inc.",NASDAQ,Financial Services,2026-10-20,2026,2026-10,4,PROSP,True
+NEE|2026-10-27,NEE,"NextEra Energy, Inc.",NYSE,Utilities,2026-10-27,2026,2026-10,4,PROSP,True
+NEM|2026-10-22,NEM,Newmont Corporation,NYSE,Basic Materials,2026-10-22,2026,2026-10,4,PROSP,True
+NEOG|2026-10-06,NEOG,Neogen Corporation,NASDAQ,Healthcare,2026-10-06,2026,2026-10,4,PROSP,False
+NESR|2026-11-12,NESR,National Energy Services Reunited Corp.,NASDAQ,Energy,2026-11-12,2026,2026-11,4,PROSP,False
+NEXT|2026-10-29,NEXT,Nextdecade Corp,NASDAQ,Energy,2026-10-29,2026,2026-10,4,PROSP,False
+NE|2026-10-26,NE,Noble Corporation Plc,NYSE,Energy,2026-10-26,2026,2026-10,4,PROSP,False
+NFLX|2026-10-20,NFLX,"Netflix, Inc.",NASDAQ,Communication Services,2026-10-20,2026,2026-10,4,PROSP,True
+NI|2026-11-04,NI,NiSource Inc,NYSE,Utilities,2026-11-04,2026,2026-11,4,PROSP,True
+NKE|2026-10-01,NKE,"NIKE, Inc.",NYSE,Consumer Cyclical,2026-10-01,2026,2026-10,4,PROSP,True
+NOC|2026-10-20,NOC,Northrop Grumman Corporation,NYSE,Industrials,2026-10-20,2026,2026-10,4,PROSP,True
+NOV|2026-10-27,NOV,NOV Inc.,NYSE,Energy,2026-10-27,2026,2026-10,4,PROSP,False
+NOW|2026-10-28,NOW,"ServiceNow, Inc.",NYSE,Technology,2026-10-28,2026,2026-10,4,PROSP,True
+NPKI|2026-10-29,NPKI,NPK International Inc.,NYSE,Basic Materials,2026-10-29,2026,2026-10,4,PROSP,False
+NPO|2026-11-03,NPO,"EnPro Industries, Inc.",NYSE,Industrials,2026-11-03,2026,2026-11,4,PROSP,False
+NRG|2026-11-05,NRG,"NRG Energy, Inc.",NYSE,Utilities,2026-11-05,2026,2026-11,4,PROSP,True
+NSC|2026-10-22,NSC,Norfolk Southern Corporation,NYSE,Industrials,2026-10-22,2026,2026-10,4,PROSP,True
+NTRS|2026-10-21,NTRS,Northern Trust Corporation,NASDAQ,Financial Services,2026-10-21,2026,2026-10,4,PROSP,True
+NUE|2026-10-26,NUE,Nucor Corporation,NYSE,Basic Materials,2026-10-26,2026,2026-10,4,PROSP,True
+NVDA|2026-11-18,NVDA,NVIDIA Corporation,NASDAQ,Technology,2026-11-18,2026,2026-11,4,PROSP,True
+NVGS|2026-11-03,NVGS,Navigator Holdings Ltd.,NYSE,Industrials,2026-11-03,2026,2026-11,4,PROSP,False
+NVMI|2026-11-05,NVMI,Nova Ltd.,NASDAQ,Technology,2026-11-05,2026,2026-11,4,PROSP,False
+NVR|2026-10-28,NVR,"NVR, Inc.",NYSE,Consumer Cyclical,2026-10-28,2026,2026-10,4,PROSP,True
+NWN|2026-11-04,NWN,Northwest Natural Holding Company,NYSE,Utilities,2026-11-04,2026,2026-11,4,PROSP,False
+NWS|2026-11-05,NWS,News Corporation,NASDAQ,Communication Services,2026-11-05,2026,2026-11,4,PROSP,True
+NXPI|2026-10-27,NXPI,NXP Semiconductors N.V.,NASDAQ,Technology,2026-10-27,2026,2026-10,4,PROSP,True
+OBDC|2026-11-04,OBDC,Blue Owl Capital Corporation,NYSE,Financial Services,2026-11-04,2026,2026-11,4,PROSP,False
+OCS|2026-11-05,OCS,Oculis Holding AG,NASDAQ,Healthcare,2026-11-05,2026,2026-11,4,PROSP,False
+ODFL|2026-10-28,ODFL,"Old Dominion Freight Line, Inc.",NASDAQ,Industrials,2026-10-28,2026,2026-10,4,PROSP,True
+OKE|2026-10-27,OKE,"ONEOK, Inc.",NYSE,Energy,2026-10-27,2026,2026-10,4,PROSP,True
+OLMA|2026-11-09,OLMA,"Olema Pharmaceuticals, Inc.",NASDAQ,Healthcare,2026-11-09,2026,2026-11,4,PROSP,False
+OMC|2026-10-20,OMC,Omnicom Group Inc.,NYSE,Communication Services,2026-10-20,2026,2026-10,4,PROSP,True
+OM|2026-11-09,OM,"Outset Medical, Inc.",NASDAQ,Healthcare,2026-11-09,2026,2026-11,4,PROSP,False
+ON|2026-11-02,ON,ON Semiconductor Corporation,NASDAQ,Technology,2026-11-02,2026,2026-11,4,PROSP,True
+OPK|2026-11-04,OPK,"OPKO Health, Inc.",NASDAQ,Healthcare,2026-11-04,2026,2026-11,4,PROSP,False
+ORGO|2026-11-05,ORGO,Organogenesis Holdings Inc.,NASDAQ,Healthcare,2026-11-05,2026,2026-11,4,PROSP,False
+ORIC|2026-11-12,ORIC,"ORIC Pharmaceuticals, Inc.",NASDAQ,Healthcare,2026-11-12,2026,2026-11,4,PROSP,False
+ORLY|2026-10-28,ORLY,"O'Reilly Automotive, Inc.",NASDAQ,Consumer Cyclical,2026-10-28,2026,2026-10,4,PROSP,True
+OR|2026-11-04,OR,OR Royalties Inc.,NYSE,Basic Materials,2026-11-04,2026,2026-11,4,PROSP,False
+OSPN|2026-10-29,OSPN,OneSpan Inc.,NASDAQ,Technology,2026-10-29,2026,2026-10,4,PROSP,False
+OTIS|2026-10-28,OTIS,Otis Worldwide Corporation,NYSE,Industrials,2026-10-28,2026,2026-10,4,PROSP,True
+OXY|2026-11-09,OXY,Occidental Petroleum Corporation,NYSE,Energy,2026-11-09,2026,2026-11,4,PROSP,True
+O|2026-11-02,O,Realty Income Corporation,NYSE,Real Estate,2026-11-02,2026,2026-11,4,PROSP,True
+PACB|2026-11-03,PACB,"Pacific Biosciences of California, Inc.",NASDAQ,Healthcare,2026-11-03,2026,2026-11,4,PROSP,False
+PAG|2026-10-28,PAG,"Penske Automotive Group, Inc.",NYSE,Consumer Cyclical,2026-10-28,2026,2026-10,4,PROSP,False
+PANW|2026-11-18,PANW,"Palo Alto Networks, Inc.",NASDAQ,Technology,2026-11-18,2026,2026-11,4,PROSP,True
+PAY|2026-11-02,PAY,"Paymentus Holdings, Inc.",NYSE,Technology,2026-11-02,2026,2026-11,4,PROSP,False
+PBF|2026-10-29,PBF,PBF Energy Inc.,NYSE,Energy,2026-10-29,2026,2026-10,4,PROSP,False
+PBH|2026-11-05,PBH,Prestige Consumer Healthcare Inc.,NYSE,Healthcare,2026-11-05,2026,2026-11,4,PROSP,False
+PBR|2026-11-10,PBR,Petróleo Brasileiro S.A. - Petrobras,NYSE,Energy,2026-11-10,2026,2026-11,4,PROSP,False
+PCAR|2026-10-27,PCAR,PACCAR Inc,NASDAQ,Industrials,2026-10-27,2026,2026-10,4,PROSP,True
+PCG|2026-10-22,PCG,PG&E Corporation,NYSE,Utilities,2026-10-22,2026,2026-10,4,PROSP,True
+PD|2026-11-24,PD,"PagerDuty, Inc.",NYSE,Technology,2026-11-24,2026,2026-11,4,PROSP,False
+PEG|2026-11-02,PEG,Public Service Enterprise Group Incorporated,NYSE,Utilities,2026-11-02,2026,2026-11,4,PROSP,True
+PENG|2026-10-06,PENG,"Penguin Solutions, Inc.",NASDAQ,Technology,2026-10-06,2026,2026-10,4,PROSP,False
+PENN|2026-11-05,PENN,"PENN Entertainment, Inc.",NASDAQ,Consumer Cyclical,2026-11-05,2026,2026-11,4,PROSP,False
+PEP|2026-10-08,PEP,"PepsiCo, Inc.",NASDAQ,Consumer Defensive,2026-10-08,2026,2026-10,4,PROSP,True
+PETS|2026-10-13,PETS,"PetMed Express, Inc.",NASDAQ,Consumer Cyclical,2026-10-13,2026,2026-10,4,PROSP,False
+PFE|2026-11-03,PFE,Pfizer Inc.,NYSE,Healthcare,2026-11-03,2026,2026-11,4,PROSP,True
+PFG|2026-10-26,PFG,"Principal Financial Group, Inc.",NASDAQ,Financial Services,2026-10-26,2026,2026-10,4,PROSP,True
+PGR|2026-10-21,PGR,The Progressive Corporation,NYSE,Financial Services,2026-10-21,2026,2026-10,4,PROSP,True
+PG|2026-10-22,PG,The Procter & Gamble Company,NYSE,Consumer Defensive,2026-10-22,2026,2026-10,4,PROSP,True
+PHM|2026-10-22,PHM,"PulteGroup, Inc.",NYSE,Consumer Cyclical,2026-10-22,2026,2026-10,4,PROSP,True
+PH|2026-11-05,PH,Parker-Hannifin Corporation,NYSE,Industrials,2026-11-05,2026,2026-11,4,PROSP,True
+PKG|2026-10-21,PKG,Packaging Corporation of America,NYSE,Consumer Cyclical,2026-10-21,2026,2026-10,4,PROSP,True
+PK|2026-11-04,PK,Park Hotels & Resorts Inc.,NYSE,Real Estate,2026-11-04,2026,2026-11,4,PROSP,False
+PLD|2026-10-15,PLD,"Prologis, Inc.",NYSE,Real Estate,2026-10-15,2026,2026-10,4,PROSP,True
+PLOW|2026-11-02,PLOW,"Douglas Dynamics, Inc.",NYSE,Industrials,2026-11-02,2026,2026-11,4,PROSP,False
+PLSE|2026-11-04,PLSE,"Pulse Biosciences, Inc.",NASDAQ,Healthcare,2026-11-04,2026,2026-11,4,PROSP,False
+PLTK|2026-11-05,PLTK,Playtika Holding Corp.,NASDAQ,Technology,2026-11-05,2026,2026-11,4,PROSP,False
+PLTR|2026-11-02,PLTR,Palantir Technologies Inc.,NASDAQ,Technology,2026-11-02,2026,2026-11,4,PROSP,True
+PM|2026-10-21,PM,Philip Morris International Inc.,NYSE,Consumer Defensive,2026-10-21,2026,2026-10,4,PROSP,True
+PNC|2026-10-15,PNC,"The PNC Financial Services Group, Inc.",NYSE,Financial Services,2026-10-15,2026,2026-10,4,PROSP,True
+PNR|2026-10-20,PNR,Pentair plc,NYSE,Industrials,2026-10-20,2026,2026-10,4,PROSP,True
+PNW|2026-11-02,PNW,Pinnacle West Capital Corporation,NYSE,Utilities,2026-11-02,2026,2026-11,4,PROSP,True
+PODD|2026-11-05,PODD,Insulet Corp.,NASDAQ,Healthcare,2026-11-05,2026,2026-11,4,PROSP,True
+POST|2026-11-19,POST,"Post Holdings, Inc.",NYSE,Consumer Defensive,2026-11-19,2026,2026-11,4,PROSP,False
+PPG|2026-10-27,PPG,"PPG Industries, Inc.",NYSE,Basic Materials,2026-10-27,2026,2026-10,4,PROSP,True
+PPL|2026-11-04,PPL,PPL Corporation,NYSE,Utilities,2026-11-04,2026,2026-11,4,PROSP,True
+PRU|2026-11-04,PRU,"Prudential Financial, Inc.",NYSE,Financial Services,2026-11-04,2026,2026-11,4,PROSP,True
+PRVA|2026-11-05,PRVA,"Privia Health Group, Inc.",NASDAQ,Healthcare,2026-11-05,2026,2026-11,4,PROSP,False
+PSA|2026-11-04,PSA,Public Storage,NYSE,Real Estate,2026-11-04,2026,2026-11,4,PROSP,True
+PSKY|2026-11-03,PSKY,Paramount Skydance Corporation Class B Common Stock,NASDAQ,Communication Services,2026-11-03,2026,2026-11,4,PROSP,True
+PSN|2026-11-04,PSN,Parsons Corporation,NYSE,Technology,2026-11-04,2026,2026-11,4,PROSP,False
+PSX|2026-10-28,PSX,Phillips 66,NYSE,Energy,2026-10-28,2026,2026-10,4,PROSP,True
+PTC|2026-11-04,PTC,PTC Inc.,NASDAQ,Technology,2026-11-04,2026,2026-11,4,PROSP,True
+PTGX|2026-11-05,PTGX,"Protagonist Therapeutics, Inc.",NASDAQ,Healthcare,2026-11-05,2026,2026-11,4,PROSP,False
+PWR|2026-10-29,PWR,"Quanta Services, Inc.",NYSE,Industrials,2026-10-29,2026,2026-10,4,PROSP,True
+PYPL|2026-10-27,PYPL,"PayPal Holdings, Inc.",NASDAQ,Financial Services,2026-10-27,2026,2026-10,4,PROSP,True
+QCOM|2026-11-04,QCOM,QUALCOMM Incorporated,NASDAQ,Technology,2026-11-04,2026,2026-11,4,PROSP,True
+QNST|2026-11-05,QNST,"QuinStreet, Inc.",NASDAQ,Communication Services,2026-11-05,2026,2026-11,4,PROSP,False
+QRVO|2026-11-04,QRVO,"Qorvo, Inc.",NASDAQ,Technology,2026-11-04,2026,2026-11,4,PROSP,False
+QXO|2026-11-05,QXO,"QXO, Inc.",NYSE,Industrials,2026-11-05,2026,2026-11,4,PROSP,False
+Q|2026-11-17,Q,"Qnity Electronics, Inc.",NYSE,Technology,2026-11-17,2026,2026-11,4,PROSP,True
+RCL|2026-10-27,RCL,Royal Caribbean Cruises Ltd.,NYSE,Consumer Cyclical,2026-10-27,2026,2026-10,4,PROSP,True
+RDDT|2026-10-29,RDDT,"Reddit, Inc.",NYSE,Communication Services,2026-10-29,2026,2026-10,4,PROSP,True
+REGN|2026-10-28,REGN,"Regeneron Pharmaceuticals, Inc.",NASDAQ,Healthcare,2026-10-28,2026,2026-10,4,PROSP,True
+REG|2026-10-28,REG,Regency Centers Corporation,NASDAQ,Real Estate,2026-10-28,2026,2026-10,4,PROSP,True
+REYN|2026-11-04,REYN,Reynolds Consumer Products Inc.,NASDAQ,Consumer Defensive,2026-11-04,2026,2026-11,4,PROSP,False
+REZI|2026-11-04,REZI,"Resideo Technologies, Inc.",NYSE,Industrials,2026-11-04,2026,2026-11,4,PROSP,False
+RF|2026-10-16,RF,Regions Financial Corporation,NYSE,Financial Services,2026-10-16,2026,2026-10,4,PROSP,True
+RJF|2026-10-28,RJF,"Raymond James Financial, Inc.",NYSE,Financial Services,2026-10-28,2026,2026-10,4,PROSP,True
+RLAY|2026-11-05,RLAY,"Relay Therapeutics, Inc.",NASDAQ,Healthcare,2026-11-05,2026,2026-11,4,PROSP,False
+RL|2026-11-05,RL,Ralph Lauren Corporation,NYSE,Consumer Cyclical,2026-11-05,2026,2026-11,4,PROSP,True
+RMD|2026-10-29,RMD,ResMed Inc.,NYSE,Healthcare,2026-10-29,2026,2026-10,4,PROSP,True
+ROIV|2026-11-09,ROIV,Roivant Sciences Ltd.,NASDAQ,Healthcare,2026-11-09,2026,2026-11,4,PROSP,False
+ROK|2026-11-05,ROK,"Rockwell Automation, Inc.",NYSE,Industrials,2026-11-05,2026,2026-11,4,PROSP,True
+ROL|2026-10-28,ROL,"Rollins, Inc.",NYSE,Industrials,2026-10-28,2026,2026-10,4,PROSP,True
+ROP|2026-10-22,ROP,"Roper Technologies, Inc.",NASDAQ,Technology,2026-10-22,2026,2026-10,4,PROSP,True
+ROST|2026-11-19,ROST,"Ross Stores, Inc.",NASDAQ,Consumer Cyclical,2026-11-19,2026,2026-11,4,PROSP,True
+RSG|2026-10-29,RSG,"Republic Services, Inc.",NYSE,Industrials,2026-10-29,2026,2026-10,4,PROSP,True
+RTX|2026-10-20,RTX,RTX Corporation,NYSE,Industrials,2026-10-20,2026,2026-10,4,PROSP,True
+RUM|2026-11-09,RUM,Rumble Inc.,NASDAQ,Communication Services,2026-11-09,2026,2026-11,4,PROSP,False
+RVTY|2026-10-26,RVTY,"Revvity, Inc.",NYSE,Healthcare,2026-10-26,2026,2026-10,4,PROSP,True
+RXST|2026-11-04,RXST,"RxSight, Inc.",NASDAQ,Healthcare,2026-11-04,2026,2026-11,4,PROSP,False
+RXT|2026-11-05,RXT,"Rackspace Technology, Inc.",NASDAQ,Technology,2026-11-05,2026,2026-11,4,PROSP,False
+R|2026-10-22,R,"Ryder System, Inc.",NYSE,Industrials,2026-10-22,2026,2026-10,4,PROSP,False
+SAM|2026-10-22,SAM,"The Boston Beer Company, Inc.",NYSE,Consumer Defensive,2026-10-22,2026,2026-10,4,PROSP,False
+SARO|2026-11-09,SARO,"StandardAero, Inc.",NYSE,Industrials,2026-11-09,2026,2026-11,4,PROSP,False
+SBAC|2026-11-02,SBAC,SBA Communications Corporation,NASDAQ,Real Estate,2026-11-02,2026,2026-11,4,PROSP,True
+SBRA|2026-11-04,SBRA,"Sabra Health Care REIT, Inc.",NASDAQ,Real Estate,2026-11-04,2026,2026-11,4,PROSP,False
+SBUX|2026-10-28,SBUX,Starbucks Corporation,NASDAQ,Consumer Cyclical,2026-10-28,2026,2026-10,4,PROSP,True
+SCHW|2026-10-15,SCHW,The Charles Schwab Corporation,NYSE,Financial Services,2026-10-15,2026,2026-10,4,PROSP,True
+SCI|2026-11-04,SCI,Service Corporation International,NYSE,Consumer Cyclical,2026-11-04,2026,2026-11,4,PROSP,False
+SCSC|2026-11-05,SCSC,"ScanSource, Inc.",NASDAQ,Technology,2026-11-05,2026,2026-11,4,PROSP,False
+SFM|2026-11-04,SFM,"Sprouts Farmers Market, Inc.",NASDAQ,Consumer Defensive,2026-11-04,2026,2026-11,4,PROSP,False
+SG|2026-11-05,SG,"Sweetgreen, Inc.",NYSE,Consumer Cyclical,2026-11-05,2026,2026-11,4,PROSP,False
+SHW|2026-10-27,SHW,The Sherwin-Williams Company,NYSE,Basic Materials,2026-10-27,2026,2026-10,4,PROSP,True
+SIMO|2026-10-29,SIMO,Silicon Motion Technology Corporation,NASDAQ,Technology,2026-10-29,2026,2026-10,4,PROSP,False
+SITM|2026-11-04,SITM,SiTime Corporation,NASDAQ,Technology,2026-11-04,2026,2026-11,4,PROSP,False
+SJM|2026-11-24,SJM,The J. M. Smucker Company,NYSE,Consumer Defensive,2026-11-24,2026,2026-11,4,PROSP,True
+SKWD|2026-11-04,SKWD,"Skyward Specialty Insurance Group, Inc.",NASDAQ,Financial Services,2026-11-04,2026,2026-11,4,PROSP,False
+SLB|2026-10-16,SLB,Slb N.V.,NYSE,Energy,2026-10-16,2026,2026-10,4,PROSP,True
+SLVM|2026-11-06,SLVM,Sylvamo Corp,NYSE,Basic Materials,2026-11-06,2026,2026-11,4,PROSP,False
+SMCI|2026-11-03,SMCI,"Super Micro Computer, Inc.",NASDAQ,Technology,2026-11-03,2026,2026-11,4,PROSP,True
+SMP|2026-10-30,SMP,"Standard Motor Products, Inc.",NYSE,Consumer Cyclical,2026-10-30,2026,2026-10,4,PROSP,False
+SNA|2026-10-15,SNA,Snap-on Incorporated,NYSE,Industrials,2026-10-15,2026,2026-10,4,PROSP,True
+SNDK|2026-11-05,SNDK,Sandisk Corporation,NASDAQ,Technology,2026-11-05,2026,2026-11,4,PROSP,True
+SOLV|2026-11-05,SOLV,Solventum Corporation,NYSE,Healthcare,2026-11-05,2026,2026-11,4,PROSP,True
+SONO|2026-11-11,SONO,"Sonos, Inc.",NASDAQ,Technology,2026-11-11,2026,2026-11,4,PROSP,False
+SO|2026-10-29,SO,The Southern Company,NYSE,Utilities,2026-10-29,2026,2026-10,4,PROSP,True
+SPGI|2026-10-29,SPGI,S&P Global Inc.,NYSE,Financial Services,2026-10-29,2026,2026-10,4,PROSP,True
+SPG|2026-11-02,SPG,"Simon Property Group, Inc.",NYSE,Real Estate,2026-11-02,2026,2026-11,4,PROSP,True
+SPH|2026-11-12,SPH,"Suburban Propane Partners, L.P.",NYSE,Energy,2026-11-12,2026,2026-11,4,PROSP,False
+SPRY|2026-11-09,SPRY,"ARS Pharmaceuticals, Inc.",NASDAQ,Healthcare,2026-11-09,2026,2026-11,4,PROSP,False
+SPXC|2026-10-28,SPXC,"SPX Technologies, Inc.",NYSE,Basic Materials,2026-10-28,2026,2026-10,4,PROSP,False
+SRE|2026-11-04,SRE,Sempra,NYSE,Utilities,2026-11-04,2026,2026-11,4,PROSP,True
+SSTK|2026-11-09,SSTK,"Shutterstock, Inc.",NYSE,Communication Services,2026-11-09,2026,2026-11,4,PROSP,False
+STAA|2026-11-04,STAA,STAAR Surgical Company,NASDAQ,Healthcare,2026-11-04,2026,2026-11,4,PROSP,False
+STE|2026-11-04,STE,STERIS plc,NYSE,Healthcare,2026-11-04,2026,2026-11,4,PROSP,True
+STGW|2026-11-05,STGW,Stagwell Inc.,NASDAQ,Communication Services,2026-11-05,2026,2026-11,4,PROSP,False
+STLD|2026-10-19,STLD,"Steel Dynamics, Inc.",NASDAQ,Basic Materials,2026-10-19,2026,2026-10,4,PROSP,True
+STT|2026-10-14,STT,State Street Corporation,NYSE,Financial Services,2026-10-14,2026,2026-10,4,PROSP,True
+STX|2026-10-28,STX,Seagate Technology Holdings plc,NASDAQ,Technology,2026-10-28,2026,2026-10,4,PROSP,True
+STZ|2026-10-06,STZ,"Constellation Brands, Inc.",NYSE,Consumer Defensive,2026-10-06,2026,2026-10,4,PROSP,True
+SUN|2026-11-04,SUN,Sunoco LP,NYSE,Energy,2026-11-04,2026,2026-11,4,PROSP,False
+SVM|2026-11-05,SVM,Silvercorp Metals Inc.,AMEX,Basic Materials,2026-11-05,2026,2026-11,4,PROSP,False
+SWKS|2026-10-27,SWKS,"Skyworks Solutions, Inc.",NASDAQ,Technology,2026-10-27,2026,2026-10,4,PROSP,True
+SWK|2026-11-03,SWK,"Stanley Black & Decker, Inc.",NYSE,Industrials,2026-11-03,2026,2026-11,4,PROSP,True
+SW|2026-11-04,SW,Smurfit Westrock plc,NYSE,Consumer Cyclical,2026-11-04,2026,2026-11,4,PROSP,True
+SYF|2026-10-20,SYF,Synchrony Financial,NYSE,Financial Services,2026-10-20,2026,2026-10,4,PROSP,True
+SYK|2026-10-29,SYK,Stryker Corporation,NYSE,Healthcare,2026-10-29,2026,2026-10,4,PROSP,True
+SYY|2026-11-03,SYY,Sysco Corporation,NYSE,Consumer Defensive,2026-11-03,2026,2026-11,4,PROSP,True
+TARS|2026-11-03,TARS,"Tarsus Pharmaceuticals, Inc.",NASDAQ,Healthcare,2026-11-03,2026,2026-11,4,PROSP,False
+TBIO|2026-11-17,TBIO,"Telesis Bio, Inc.",OTC,Healthcare,2026-11-17,2026,2026-11,4,PROSP,False
+TDG|2026-11-11,TDG,TransDigm Group Incorporated,NYSE,Industrials,2026-11-11,2026,2026-11,4,PROSP,True
+TDOC|2026-10-28,TDOC,"Teladoc Health, Inc.",NYSE,Healthcare,2026-10-28,2026,2026-10,4,PROSP,False
+TDY|2026-10-28,TDY,Teledyne Technologies Incorporated,NYSE,Technology,2026-10-28,2026,2026-10,4,PROSP,True
+TECH|2026-11-04,TECH,Bio-Techne Corporation,NASDAQ,Healthcare,2026-11-04,2026,2026-11,4,PROSP,True
+TEL|2026-11-04,TEL,TE Connectivity plc,NYSE,Technology,2026-11-04,2026,2026-11,4,PROSP,True
+TEN|2026-11-19,TEN,Tsakos Energy Navigation Limited,NYSE,Energy,2026-11-19,2026,2026-11,4,PROSP,False
+TER|2026-10-27,TER,"Teradyne, Inc.",NASDAQ,Technology,2026-10-27,2026,2026-10,4,PROSP,True
+TFC|2026-10-16,TFC,Truist Financial Corporation,NYSE,Financial Services,2026-10-16,2026,2026-10,4,PROSP,True
+TFX|2026-11-05,TFX,Teleflex Incorporated,NYSE,Healthcare,2026-11-05,2026,2026-11,4,PROSP,False
+TGT|2026-11-18,TGT,Target Corporation,NYSE,Consumer Defensive,2026-11-18,2026,2026-11,4,PROSP,True
+THRY|2026-10-29,THRY,"Thryv Holdings, Inc.",NASDAQ,Technology,2026-10-29,2026,2026-10,4,PROSP,False
+TILE|2026-10-30,TILE,"Interface, Inc.",NASDAQ,Consumer Cyclical,2026-10-30,2026,2026-10,4,PROSP,False
+TIMB|2026-11-03,TIMB,TIM S.A.,NYSE,Communication Services,2026-11-03,2026,2026-11,4,PROSP,False
+TJX|2026-11-18,TJX,"The TJX Companies, Inc.",NYSE,Consumer Cyclical,2026-11-18,2026,2026-11,4,PROSP,True
+TKO|2026-11-04,TKO,"TKO Group Holdings, Inc.",NYSE,Communication Services,2026-11-04,2026,2026-11,4,PROSP,True
+TLK|2026-10-29,TLK,PT Telkom Indonesia (Persero) Tbk Sponsored ADR Class B,NYSE,Communication Services,2026-10-29,2026,2026-10,4,PROSP,False
+TMO|2026-10-28,TMO,Thermo Fisher Scientific Inc.,NYSE,Healthcare,2026-10-28,2026,2026-10,4,PROSP,True
+TMUS|2026-10-28,TMUS,"T-Mobile US, Inc.",NASDAQ,Communication Services,2026-10-28,2026,2026-10,4,PROSP,True
+TNC|2026-11-02,TNC,Tennant Company,NYSE,Industrials,2026-11-02,2026,2026-11,4,PROSP,False
+TPC|2026-11-04,TPC,Tutor Perini Corporation,NYSE,Industrials,2026-11-04,2026,2026-11,4,PROSP,False
+TPL|2026-11-04,TPL,Texas Pacific Land Corporation,NYSE,Energy,2026-11-04,2026,2026-11,4,PROSP,True
+TPR|2026-11-05,TPR,"Tapestry, Inc.",NYSE,Consumer Cyclical,2026-11-05,2026,2026-11,4,PROSP,True
+TREX|2026-11-03,TREX,"Trex Company, Inc.",NYSE,Basic Materials,2026-11-03,2026,2026-11,4,PROSP,False
+TRGP|2026-11-04,TRGP,Targa Resources Corp.,NYSE,Energy,2026-11-04,2026,2026-11,4,PROSP,True
+TRIN|2026-11-04,TRIN,Trinity Capital Inc.,NYSE,Financial Services,2026-11-04,2026,2026-11,4,PROSP,False
+TRMB|2026-11-04,TRMB,Trimble Inc.,NASDAQ,Technology,2026-11-04,2026,2026-11,4,PROSP,True
+TROW|2026-10-30,TROW,"T. Rowe Price Group, Inc.",NASDAQ,Financial Services,2026-10-30,2026,2026-10,4,PROSP,True
+TROX|2026-11-04,TROX,Tronox Holdings plc,NYSE,Basic Materials,2026-11-04,2026,2026-11,4,PROSP,False
+TRV|2026-10-16,TRV,"The Travelers Companies, Inc.",NYSE,Financial Services,2026-10-16,2026,2026-10,4,PROSP,True
+TSCO|2026-10-22,TSCO,Tractor Supply Company,NASDAQ,Consumer Cyclical,2026-10-22,2026,2026-10,4,PROSP,True
+TSEM|2026-11-09,TSEM,Tower Semiconductor Ltd.,NASDAQ,Technology,2026-11-09,2026,2026-11,4,PROSP,False
+TSLA|2026-10-28,TSLA,"Tesla, Inc.",NASDAQ,Consumer Cyclical,2026-10-28,2026,2026-10,4,PROSP,True
+TSN|2026-11-09,TSN,"Tyson Foods, Inc.",NYSE,Consumer Defensive,2026-11-09,2026,2026-11,4,PROSP,True
+TS|2026-11-04,TS,Tenaris S.A.,NYSE,Energy,2026-11-04,2026,2026-11,4,PROSP,False
+TTMI|2026-11-04,TTMI,"TTM Technologies, Inc.",NASDAQ,Technology,2026-11-04,2026,2026-11,4,PROSP,False
+TTWO|2026-11-05,TTWO,"Take-Two Interactive Software, Inc.",NASDAQ,Technology,2026-11-05,2026,2026-11,4,PROSP,True
+TT|2026-10-29,TT,Trane Technologies plc,NYSE,Industrials,2026-10-29,2026,2026-10,4,PROSP,True
+TVTX|2026-10-29,TVTX,"Travere Therapeutics, Inc.",NASDAQ,Healthcare,2026-10-29,2026,2026-10,4,PROSP,False
+TW|2026-10-29,TW,Tradeweb Markets Inc.,NASDAQ,Financial Services,2026-10-29,2026,2026-10,4,PROSP,False
+TXG|2026-11-05,TXG,"10x Genomics, Inc.",NASDAQ,Healthcare,2026-11-05,2026,2026-11,4,PROSP,False
+TXN|2026-10-27,TXN,Texas Instruments Incorporated,NASDAQ,Technology,2026-10-27,2026,2026-10,4,PROSP,True
+TXO|2026-11-03,TXO,"TXO Partners, L.P.",NYSE,Energy,2026-11-03,2026,2026-11,4,PROSP,False
+TXRH|2026-11-05,TXRH,"Texas Roadhouse, Inc.",NASDAQ,Consumer Cyclical,2026-11-05,2026,2026-11,4,PROSP,False
+TXT|2026-10-22,TXT,Textron Inc.,NYSE,Industrials,2026-10-22,2026,2026-10,4,PROSP,True
+TYL|2026-10-28,TYL,"Tyler Technologies, Inc.",NYSE,Technology,2026-10-28,2026,2026-10,4,PROSP,True
+T|2026-10-21,T,AT&T Inc.,NYSE,Communication Services,2026-10-21,2026,2026-10,4,PROSP,True
+UAL|2026-10-21,UAL,"United Airlines Holdings, Inc.",NASDAQ,Industrials,2026-10-21,2026,2026-10,4,PROSP,True
+UBER|2026-11-03,UBER,"Uber Technologies, Inc.",NYSE,Technology,2026-11-03,2026,2026-11,4,PROSP,True
+UDR|2026-10-28,UDR,"UDR, Inc.",NYSE,Real Estate,2026-10-28,2026,2026-10,4,PROSP,True
+UGP|2026-11-11,UGP,Ultrapar Participações S.A.,NYSE,Energy,2026-11-11,2026,2026-11,4,PROSP,False
+UHS|2026-10-26,UHS,"Universal Health Services, Inc.",NYSE,Healthcare,2026-10-26,2026,2026-10,4,PROSP,True
+ULCC|2026-11-04,ULCC,"Frontier Group Holdings, Inc.",NASDAQ,Industrials,2026-11-04,2026,2026-11,4,PROSP,False
+UNH|2026-10-13,UNH,UnitedHealth Group Incorporated,NYSE,Healthcare,2026-10-13,2026,2026-10,4,PROSP,True
+UNP|2026-10-22,UNP,Union Pacific Corporation,NYSE,Industrials,2026-10-22,2026,2026-10,4,PROSP,True
+UPST|2026-11-03,UPST,"Upstart Holdings, Inc.",NASDAQ,Financial Services,2026-11-03,2026,2026-11,4,PROSP,False
+UPS|2026-10-27,UPS,"United Parcel Service, Inc.",NYSE,Industrials,2026-10-27,2026,2026-10,4,PROSP,True
+UPWK|2026-11-02,UPWK,Upwork Inc.,NASDAQ,Industrials,2026-11-02,2026,2026-11,4,PROSP,False
+URI|2026-10-28,URI,"United Rentals, Inc.",NYSE,Industrials,2026-10-28,2026,2026-10,4,PROSP,True
+USB|2026-10-15,USB,U.S. Bancorp,NYSE,Financial Services,2026-10-15,2026,2026-10,4,PROSP,True
+UTHR|2026-11-04,UTHR,United Therapeutics Corporation,NASDAQ,Healthcare,2026-11-04,2026,2026-11,4,PROSP,False
+UTZ|2026-10-29,UTZ,"Utz Brands, Inc.",NYSE,Consumer Defensive,2026-10-29,2026,2026-10,4,PROSP,False
+VAL|2026-11-04,VAL,Valaris Limited,NYSE,Energy,2026-11-04,2026,2026-11,4,PROSP,False
+VEEV|2026-11-25,VEEV,Veeva Systems Inc.,NYSE,Technology,2026-11-25,2026,2026-11,4,PROSP,True
+VEL|2026-11-05,VEL,"Velocity Financial, Inc.",NYSE,Financial Services,2026-11-05,2026,2026-11,4,PROSP,False
+VICI|2026-10-29,VICI,VICI Properties Inc.,NYSE,Real Estate,2026-10-29,2026,2026-10,4,PROSP,True
+VICR|2026-10-20,VICR,Vicor Corporation,NASDAQ,Technology,2026-10-20,2026,2026-10,4,PROSP,False
+VIV|2026-11-10,VIV,Telefônica Brasil S.A.,NYSE,Communication Services,2026-11-10,2026,2026-11,4,PROSP,False
+VLO|2026-10-22,VLO,Valero Energy Corporation,NYSE,Energy,2026-10-22,2026,2026-10,4,PROSP,True
+VLTO|2026-10-27,VLTO,Veralto Corporation,NYSE,Industrials,2026-10-27,2026,2026-10,4,PROSP,True
+VMC|2026-10-29,VMC,Vulcan Materials Company,NYSE,Basic Materials,2026-10-29,2026,2026-10,4,PROSP,True
+VMRK|2026-10-27,VMRK,Vivmark Residential,NYSE,Real Estate,2026-10-27,2026,2026-10,4,PROSP,True
+VRDN|2026-11-04,VRDN,"Viridian Therapeutics, Inc.",NASDAQ,Healthcare,2026-11-04,2026,2026-11,4,PROSP,False
+VRSK|2026-11-04,VRSK,"Verisk Analytics, Inc.",NASDAQ,Technology,2026-11-04,2026,2026-11,4,PROSP,True
+VRSN|2026-10-22,VRSN,"VeriSign, Inc.",NASDAQ,Technology,2026-10-22,2026,2026-10,4,PROSP,True
+VRTX|2026-11-02,VRTX,Vertex Pharmaceuticals Incorporated,NASDAQ,Healthcare,2026-11-02,2026,2026-11,4,PROSP,True
+VRT|2026-10-28,VRT,Vertiv Holdings Co,NYSE,Industrials,2026-10-28,2026,2026-10,4,PROSP,True
+VST|2026-11-05,VST,Vistra Corp.,NYSE,Utilities,2026-11-05,2026,2026-11,4,PROSP,True
+VTRS|2026-11-05,VTRS,Viatris Inc.,NASDAQ,Healthcare,2026-11-05,2026,2026-11,4,PROSP,True
+VTR|2026-10-28,VTR,"Ventas, Inc.",NYSE,Real Estate,2026-10-28,2026,2026-10,4,PROSP,True
+VXRT|2026-11-12,VXRT,"Vaxart, Inc.",OTC,Healthcare,2026-11-12,2026,2026-11,4,PROSP,False
+VZ|2026-10-20,VZ,Verizon Communications Inc.,NYSE,Communication Services,2026-10-20,2026,2026-10,4,PROSP,True
+V|2026-10-27,V,Visa Inc.,NYSE,Financial Services,2026-10-27,2026,2026-10,4,PROSP,True
+WAB|2026-10-28,WAB,Westinghouse Air Brake Technologies Corporation,NYSE,Industrials,2026-10-28,2026,2026-10,4,PROSP,True
+WAT|2026-11-03,WAT,Waters Corporation,NYSE,Healthcare,2026-11-03,2026,2026-11,4,PROSP,True
+WAY|2026-11-04,WAY,Waystar Holding Corp.,NASDAQ,Healthcare,2026-11-04,2026,2026-11,4,PROSP,False
+WBD|2026-11-05,WBD,"Warner Bros. Discovery, Inc.",NASDAQ,Communication Services,2026-11-05,2026,2026-11,4,PROSP,True
+WDAY|2026-11-24,WDAY,"Workday, Inc.",NASDAQ,Technology,2026-11-24,2026,2026-11,4,PROSP,True
+WDC|2026-10-29,WDC,Western Digital Corporation,NASDAQ,Technology,2026-10-29,2026,2026-10,4,PROSP,True
+WDFC|2026-10-28,WDFC,WD-40 Company,NASDAQ,Basic Materials,2026-10-28,2026,2026-10,4,PROSP,False
+WEC|2026-10-29,WEC,"WEC Energy Group, Inc.",NYSE,Utilities,2026-10-29,2026,2026-10,4,PROSP,True
+WELL|2026-10-26,WELL,Welltower Inc.,NYSE,Real Estate,2026-10-26,2026,2026-10,4,PROSP,True
+WEN|2026-11-06,WEN,The Wendy's Company,NASDAQ,Consumer Cyclical,2026-11-06,2026,2026-11,4,PROSP,False
+WEST|2026-11-05,WEST,"Westrock Coffee Company, LLC",NASDAQ,Consumer Defensive,2026-11-05,2026,2026-11,4,PROSP,False
+WFC|2026-10-13,WFC,Wells Fargo & Company,NYSE,Financial Services,2026-10-13,2026,2026-10,4,PROSP,True
+WIT|2026-10-15,WIT,Wipro Limited,NYSE,Technology,2026-10-15,2026,2026-10,4,PROSP,False
+WLFC|2026-11-03,WLFC,Willis Lease Finance Corporation,NASDAQ,Industrials,2026-11-03,2026,2026-11,4,PROSP,False
+WLKP|2026-10-29,WLKP,Westlake Chemical Partners LP,NYSE,Basic Materials,2026-10-29,2026,2026-10,4,PROSP,False
+WMB|2026-11-02,WMB,"The Williams Companies, Inc.",NYSE,Energy,2026-11-02,2026,2026-11,4,PROSP,True
+WMT|2026-11-19,WMT,Walmart Inc.,NASDAQ,Consumer Defensive,2026-11-19,2026,2026-11,4,PROSP,True
+WM|2026-10-26,WM,"Waste Management, Inc.",NYSE,Industrials,2026-10-26,2026,2026-10,4,PROSP,True
+WRB|2026-10-19,WRB,W. R. Berkley Corporation,NYSE,Financial Services,2026-10-19,2026,2026-10,4,PROSP,True
+WSC|2026-11-05,WSC,WillScot Holdings Corporation,NASDAQ,Industrials,2026-11-05,2026,2026-11,4,PROSP,False
+WSM|2026-11-18,WSM,"Williams-Sonoma, Inc.",NYSE,Consumer Cyclical,2026-11-18,2026,2026-11,4,PROSP,True
+WST|2026-10-22,WST,"West Pharmaceutical Services, Inc.",NYSE,Healthcare,2026-10-22,2026,2026-10,4,PROSP,True
+WTW|2026-10-29,WTW,Willis Towers Watson Public Limited Company,NASDAQ,Financial Services,2026-10-29,2026,2026-10,4,PROSP,True
+WWD|2026-11-23,WWD,"Woodward, Inc.",NASDAQ,Industrials,2026-11-23,2026,2026-11,4,PROSP,False
+WYNN|2026-11-05,WYNN,"Wynn Resorts, Limited",NASDAQ,Consumer Cyclical,2026-11-05,2026,2026-11,4,PROSP,True
+WY|2026-10-29,WY,Weyerhaeuser Company,NYSE,Real Estate,2026-10-29,2026,2026-10,4,PROSP,True
+XEL|2026-10-29,XEL,Xcel Energy Inc.,NASDAQ,Utilities,2026-10-29,2026,2026-10,4,PROSP,True
+XENE|2026-11-02,XENE,Xenon Pharmaceuticals Inc.,NASDAQ,Healthcare,2026-11-02,2026,2026-11,4,PROSP,False
+XHR|2026-11-03,XHR,"Xenia Hotels & Resorts, Inc.",NYSE,Real Estate,2026-11-03,2026,2026-11,4,PROSP,False
+XNCR|2026-11-04,XNCR,"Xencor, Inc.",NASDAQ,Healthcare,2026-11-04,2026,2026-11,4,PROSP,False
+XOM|2026-10-30,XOM,Exxon Mobil Corporation,NYSE,Energy,2026-10-30,2026,2026-10,4,PROSP,True
+XYL|2026-11-03,XYL,Xylem Inc.,NYSE,Industrials,2026-11-03,2026,2026-11,4,PROSP,True
+XYZ|2026-11-05,XYZ,"Block, Inc.",NYSE,Technology,2026-11-05,2026,2026-11,4,PROSP,True
+YUM|2026-11-03,YUM,"Yum! Brands, Inc.",NYSE,Consumer Cyclical,2026-11-03,2026,2026-11,4,PROSP,True
+ZBH|2026-11-04,ZBH,"Zimmer Biomet Holdings, Inc.",NYSE,Healthcare,2026-11-04,2026,2026-11,4,PROSP,True
+ZBRA|2026-11-03,ZBRA,Zebra Technologies Corporation,NASDAQ,Technology,2026-11-03,2026,2026-11,4,PROSP,True
+ZETA|2026-11-03,ZETA,Zeta Global Holdings Corp.,NYSE,Technology,2026-11-03,2026,2026-11,4,PROSP,False
+ZG|2026-10-29,ZG,"Zillow Group, Inc. Class A",NASDAQ,Communication Services,2026-10-29,2026,2026-10,4,PROSP,False
+ZIM|2026-11-19,ZIM,ZIM Integrated Shipping Services Ltd.,NYSE,Industrials,2026-11-19,2026,2026-11,4,PROSP,False
+ZLAB|2026-11-05,ZLAB,Zai Lab Limited,NASDAQ,Healthcare,2026-11-05,2026,2026-11,4,PROSP,False
+ZTS|2026-11-03,ZTS,Zoetis Inc.,NYSE,Healthcare,2026-11-03,2026,2026-11,4,PROSP,True
