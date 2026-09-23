@@ -6,7 +6,7 @@ If a language model remembers how a market event turned out, a backtest run thro
 |---|---|---|
 | [studies/2026-09-jev](studies/2026-09-jev/) | TypeSafe Jev, `jev-1.13-20260917` | no detectable memory of 2023–2024 earnings outcomes (provisional until the prospective set is scored in January 2027) |
 
-Each study hashes its protocol, code and inputs into one file and timestamps it with OpenTimestamps before the first model call. Every later change goes into that study's `DEVIATIONS.md`.
+Each study hashes its protocol, code and inputs into one file before the first model call and anchors that file in Bitcoin with OpenTimestamps. Every later change goes into that study's `DEVIATIONS.md`.
 
 The pipeline around the model can leak the future too. [TraceGuard](https://github.com/lizhuojunx86/traceguard) is my Python library for that side of the problem.
 

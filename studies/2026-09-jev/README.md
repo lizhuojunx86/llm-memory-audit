@@ -14,6 +14,8 @@ H1 to H3 are within-company AUCs, where 0.5 means no memory. H4 and H5 are diffe
 
 The protocol is `PREREG.md`, frozen 2026-09-23T03:49:37Z. One thing changed after the freeze, for the control model only, and `DEVIATIONS.md` says what and why.
 
+What the timestamp proves: `freeze.json.ots` anchors `freeze.json` in Bitcoin blocks 968225 (mined 2026-09-23T04:51:43Z) and 968226. The stamp was requested seconds before the first study request at 03:49:45Z, but the Jev run had finished by 04:03Z, so the proof on its own shows only that the protocol existed by 04:51:43Z. The prospective set below doesn't depend on that.
+
 ## Files
 
 | Path | What it is |
