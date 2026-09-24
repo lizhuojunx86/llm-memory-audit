@@ -1,5 +1,7 @@
 # Does Jev know how past earnings turned out?
 
+Write-ups: [dev.to (EN)](https://dev.to/lizhuojunx86/does-jev-remember-2023-a-naive-test-says-yes-at-p-0001-a-within-company-test-says-no-5fja) · [知乎 (CN)](https://zhuanlan.zhihu.com/p/2086560706716087498)
+
 I asked Jev (TypeSafe, served as `typesafe/jev-1.13-20260917`) about 12,533 US earnings announcements, 38,956 calls in all. The pre-registered test compares each company only with itself, and it finds no memory. Shown the name and date of two announcements from the same firm and the same season, one in 2023 and one in 2024, Jev can't tell which one beat. The verdict stays provisional until the prospective set below is scored after 2027-01-08.
 
 | Test | Question | Result (95% CI) | Pairs |
