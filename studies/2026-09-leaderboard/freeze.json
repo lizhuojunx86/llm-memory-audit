@@ -1,0 +1,13 @@
+{
+ "frozen_utc": "2026-09-24T13:58:55.856628Z",
+ "files": {
+  "PREREG_LB.md": "0e3bfadd7ee40a18490b1eca57cd5151d8372d3d19fca4d288a6c28313277b2e",
+  "lb.py": "abc56ff597e8619649a6d69fb1beca5d217d8a95acabfa0d08c9aa16eaea1159",
+  "models.json": "a3849511374ca64ac7ec47cd473308bfb233e4bbf2a8837191e25fe9536f42e7",
+  "work/requests.jsonl": "b0ffee0ee8a9064be9b2e1cf4f02448219b36491e3ca55f2577ef68e800f2850",
+  "preflight/smoke.jsonl": "c8052a59e9412f7202c0cded35f9a3680e138e5e8b3b9cdfe720c076be29bc28",
+  "../jev-lookahead/freeze.json": "4388f6de2a71f6d76d7a3d3021257e8e005e41447fe6b0ea3c49cc47b5638ce7",
+  "../jev-lookahead/work/events.jsonl": "06b542026b6fa83d68ac5d0599c2d30208529eb9b52a448c69e2b13e3facaa9f"
+ },
+ "note": "No leaderboard request had been sent to any model when this file was written (smoke calls use a fictional company)."
+}

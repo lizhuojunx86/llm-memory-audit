@@ -1,0 +1,15 @@
+{
+ "frozen_utc": "2026-09-24T14:10:43Z",
+ "files": {
+  "PREREG_LB_clones.md": "f0aa6ae672f0f0df12f2e51cafdabfd567d9a2c8e1bbc5ba8361d7a904d966e6",
+  "von_run.py": "2dafac28f4af13258460d3c4c8d61468d57b5a8ab3b436c5543c419558826298",
+  "studies/2026-09-jev/src/payloads.py": "027490fc3c82c97783939500f4a004cb10bb874127792cda2315490784ad8669",
+  "studies/2026-09-jev/public_data/events.csv": "738e277699b005fe5a7692835e14dae8b323b40efe3dd2e44a0dee98bb0236a5"
+ },
+ "model": {
+  "package": "von-sdk 1.2.2",
+  "weights": "wfzyx/von von-1.2.0",
+  "hf_snapshot": "5df8185a4f2327ad0a7cd117cc4f701ac557b9ae"
+ },
+ "note": "No study event had been sent to von when this file was written (smoke used a fictional company)."
+}

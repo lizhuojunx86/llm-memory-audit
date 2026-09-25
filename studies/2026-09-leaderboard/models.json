@@ -1,0 +1,78 @@
+{
+ "gpt6sol": [
+  "openai/gpt-6-sol",
+  {
+   "reasoning": {
+    "enabled": false
+   },
+   "max_tokens": 300
+  }
+ ],
+ "gpt6luna": [
+  "openai/gpt-6-luna",
+  {
+   "reasoning": {
+    "enabled": false
+   },
+   "max_tokens": 300
+  }
+ ],
+ "gemini38f": [
+  "google/gemini-3.8-flash",
+  {
+   "reasoning": {
+    "effort": "low",
+    "exclude": true
+   },
+   "max_tokens": 2000
+  }
+ ],
+ "dsv4pro": [
+  "deepseek/deepseek-v4-pro-0813",
+  {
+   "reasoning": {
+    "enabled": false
+   },
+   "max_tokens": 300
+  }
+ ],
+ "qwen38max": [
+  "qwen/qwen3.8-max-0902",
+  {
+   "reasoning": {
+    "effort": "low",
+    "exclude": true
+   },
+   "max_tokens": 2000
+  }
+ ],
+ "kimik3": [
+  "moonshotai/kimi-k3",
+  {
+   "reasoning": {
+    "enabled": false
+   },
+   "max_tokens": 300
+  }
+ ],
+ "grok47": [
+  "x-ai/grok-4.7",
+  {
+   "reasoning": {
+    "effort": "low",
+    "exclude": true
+   },
+   "max_tokens": 2000
+  }
+ ],
+ "glm53": [
+  "z-ai/glm-5.3",
+  {
+   "reasoning": {
+    "effort": "low",
+    "exclude": true
+   },
+   "max_tokens": 2000
+  }
+ ]
+}

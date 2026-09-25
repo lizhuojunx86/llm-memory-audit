@@ -1,0 +1,1222 @@
+{
+ "B": 2000,
+ "models": {
+  "jev": {
+   "model_id": "typesafe/jev-1.13-20260917",
+   "settings": null,
+   "family": "existing",
+   "pooled_K": {
+    "estimate": 0.5037,
+    "ci95": [
+     0.4785,
+     0.5305
+    ],
+    "p_one_sided": 0.39430284857571213,
+    "boot_sd": 0.0135,
+    "mde_design": 0.0456,
+    "pairs": 1207,
+    "tickers": 247,
+    "n_boot": 2000
+   },
+   "per_question": {
+    "k1_beat": {
+     "estimate": 0.4844,
+     "ci95": [
+      0.4228,
+      0.5418
+     ],
+     "p_one_sided": 0.6986506746626686,
+     "boot_sd": 0.0307,
+     "mde_design": 0.099,
+     "pairs": 256,
+     "tickers": 158,
+     "n_boot": 2000
+    },
+    "k2_react": {
+     "estimate": 0.4971,
+     "ci95": [
+      0.4537,
+      0.5392
+     ],
+     "p_one_sided": 0.5612193903048476,
+     "boot_sd": 0.0219,
+     "mde_design": 0.0701,
+     "pairs": 511,
+     "tickers": 242,
+     "n_boot": 2000
+    },
+    "k3_drift": {
+     "estimate": 0.5227,
+     "ci95": [
+      0.4789,
+      0.5659
+     ],
+     "p_one_sided": 0.1679160419790105,
+     "boot_sd": 0.0224,
+     "mde_design": 0.0755,
+     "pairs": 440,
+     "tickers": 231,
+     "n_boot": 2000
+    }
+   },
+   "answers": 3708
+  },
+  "sonnet5": {
+   "model_id": "anthropic/claude-sonnet-5",
+   "settings": null,
+   "family": "existing",
+   "pooled_K": {
+    "estimate": 0.5874,
+    "ci95": [
+     0.561,
+     0.6134
+    ],
+    "p_one_sided": 0.0004997501249375312,
+    "boot_sd": 0.0137,
+    "mde_design": 0.0456,
+    "pairs": 1207,
+    "tickers": 247,
+    "n_boot": 2000
+   },
+   "per_question": {
+    "k1_beat": {
+     "estimate": 0.6016,
+     "ci95": [
+      0.5408,
+      0.6624
+     ],
+     "p_one_sided": 0.0014992503748125937,
+     "boot_sd": 0.0303,
+     "mde_design": 0.099,
+     "pairs": 256,
+     "tickers": 158,
+     "n_boot": 2000
+    },
+    "k2_react": {
+     "estimate": 0.6164,
+     "ci95": [
+      0.5742,
+      0.6602
+     ],
+     "p_one_sided": 0.0004997501249375312,
+     "boot_sd": 0.0219,
+     "mde_design": 0.0701,
+     "pairs": 511,
+     "tickers": 242,
+     "n_boot": 2000
+    },
+    "k3_drift": {
+     "estimate": 0.5455,
+     "ci95": [
+      0.4967,
+      0.5941
+     ],
+     "p_one_sided": 0.034482758620689655,
+     "boot_sd": 0.0248,
+     "mde_design": 0.0755,
+     "pairs": 440,
+     "tickers": 231,
+     "n_boot": 2000
+    }
+   },
+   "answers": 3708
+  },
+  "llama31": {
+   "model_id": "meta-llama/llama-3.1-70b-instruct",
+   "settings": null,
+   "family": "existing",
+   "pooled_K": {
+    "estimate": 0.4904,
+    "ci95": [
+     0.4637,
+     0.5173
+    ],
+    "p_one_sided": 0.7641179410294853,
+    "boot_sd": 0.0137,
+    "mde_design": 0.0457,
+    "pairs": 1199,
+    "tickers": 247,
+    "n_boot": 2000
+   },
+   "per_question": {
+    "k1_beat": {
+     "estimate": 0.4699,
+     "ci95": [
+      0.4096,
+      0.532
+     ],
+     "p_one_sided": 0.8340829585207397,
+     "boot_sd": 0.0314,
+     "mde_design": 0.1004,
+     "pairs": 249,
+     "tickers": 154,
+     "n_boot": 2000
+    },
+    "k2_react": {
+     "estimate": 0.5255,
+     "ci95": [
+      0.4816,
+      0.5689
+     ],
+     "p_one_sided": 0.12093953023488256,
+     "boot_sd": 0.0219,
+     "mde_design": 0.0701,
+     "pairs": 510,
+     "tickers": 242,
+     "n_boot": 2000
+    },
+    "k3_drift": {
+     "estimate": 0.4614,
+     "ci95": [
+      0.4172,
+      0.5101
+     ],
+     "p_one_sided": 0.9460269865067467,
+     "boot_sd": 0.0237,
+     "mde_design": 0.0755,
+     "pairs": 440,
+     "tickers": 231,
+     "n_boot": 2000
+    }
+   },
+   "answers": 3701
+  },
+  "von": {
+   "model_id": "wfzyx/von (von-1.2.0, local CPU)",
+   "settings": null,
+   "family": "existing",
+   "pooled_K": {
+    "estimate": 0.541,
+    "ci95": [
+     0.5121,
+     0.5687
+    ],
+    "p_one_sided": 0.005497251374312844,
+    "boot_sd": 0.0146,
+    "mde_design": 0.0456,
+    "pairs": 1207,
+    "tickers": 247,
+    "n_boot": 2000
+   },
+   "per_question": {
+    "k1_beat": {
+     "estimate": 0.5703,
+     "ci95": [
+      0.506,
+      0.6312
+     ],
+     "p_one_sided": 0.015492253873063468,
+     "boot_sd": 0.0315,
+     "mde_design": 0.099,
+     "pairs": 256,
+     "tickers": 158,
+     "n_boot": 2000
+    },
+    "k2_react": {
+     "estimate": 0.5088,
+     "ci95": [
+      0.4665,
+      0.5513
+     ],
+     "p_one_sided": 0.3373313343328336,
+     "boot_sd": 0.0218,
+     "mde_design": 0.0701,
+     "pairs": 511,
+     "tickers": 242,
+     "n_boot": 2000
+    },
+    "k3_drift": {
+     "estimate": 0.5614,
+     "ci95": [
+      0.5154,
+      0.6073
+     ],
+     "p_one_sided": 0.005997001499250375,
+     "boot_sd": 0.0238,
+     "mde_design": 0.0755,
+     "pairs": 440,
+     "tickers": 231,
+     "n_boot": 2000
+    }
+   },
+   "answers": 3708
+  },
+  "gpt6sol": {
+   "model_id": "openai/gpt-6-sol",
+   "settings": {
+    "reasoning": {
+     "enabled": false
+    },
+    "max_tokens": 300
+   },
+   "family": "main",
+   "pooled_K": {
+    "estimate": 0.691,
+    "ci95": [
+     0.6653,
+     0.7174
+    ],
+    "p_one_sided": 0.0004997501249375312,
+    "boot_sd": 0.0132,
+    "mde_design": 0.0456,
+    "pairs": 1207,
+    "tickers": 247,
+    "n_boot": 2000
+   },
+   "per_question": {
+    "k1_beat": {
+     "estimate": 0.6641,
+     "ci95": [
+      0.5984,
+      0.7266
+     ],
+     "p_one_sided": 0.0004997501249375312,
+     "boot_sd": 0.0317,
+     "mde_design": 0.099,
+     "pairs": 256,
+     "tickers": 158,
+     "n_boot": 2000
+    },
+    "k2_react": {
+     "estimate": 0.7378,
+     "ci95": [
+      0.6986,
+      0.7757
+     ],
+     "p_one_sided": 0.0004997501249375312,
+     "boot_sd": 0.0195,
+     "mde_design": 0.0701,
+     "pairs": 511,
+     "tickers": 242,
+     "n_boot": 2000
+    },
+    "k3_drift": {
+     "estimate": 0.6523,
+     "ci95": [
+      0.6086,
+      0.6951
+     ],
+     "p_one_sided": 0.0004997501249375312,
+     "boot_sd": 0.0219,
+     "mde_design": 0.0755,
+     "pairs": 440,
+     "tickers": 231,
+     "n_boot": 2000
+    }
+   },
+   "answers": 3708,
+   "quality": {
+    "records": 3708,
+    "http_200": 3708,
+    "incomplete": 0,
+    "served": {
+     "openai/gpt-6-sol": 3708
+    }
+   },
+   "cost_usd": 3.0629,
+   "partial": false
+  },
+  "gpt6luna": {
+   "model_id": "openai/gpt-6-luna",
+   "settings": {
+    "reasoning": {
+     "enabled": false
+    },
+    "max_tokens": 300
+   },
+   "family": "main",
+   "pooled_K": {
+    "estimate": 0.5733,
+    "ci95": [
+     0.5468,
+     0.6005
+    ],
+    "p_one_sided": 0.0004997501249375312,
+    "boot_sd": 0.0139,
+    "mde_design": 0.0456,
+    "pairs": 1207,
+    "tickers": 247,
+    "n_boot": 2000
+   },
+   "per_question": {
+    "k1_beat": {
+     "estimate": 0.5156,
+     "ci95": [
+      0.4504,
+      0.583
+     ],
+     "p_one_sided": 0.3363318340829585,
+     "boot_sd": 0.0348,
+     "mde_design": 0.099,
+     "pairs": 256,
+     "tickers": 158,
+     "n_boot": 2000
+    },
+    "k2_react": {
+     "estimate": 0.6262,
+     "ci95": [
+      0.5851,
+      0.6654
+     ],
+     "p_one_sided": 0.0004997501249375312,
+     "boot_sd": 0.0203,
+     "mde_design": 0.0701,
+     "pairs": 511,
+     "tickers": 242,
+     "n_boot": 2000
+    },
+    "k3_drift": {
+     "estimate": 0.5455,
+     "ci95": [
+      0.4988,
+      0.593
+     ],
+     "p_one_sided": 0.031484257871064465,
+     "boot_sd": 0.0237,
+     "mde_design": 0.0755,
+     "pairs": 440,
+     "tickers": 231,
+     "n_boot": 2000
+    }
+   },
+   "answers": 3708,
+   "quality": {
+    "records": 3708,
+    "http_200": 3708,
+    "incomplete": 0,
+    "served": {
+     "openai/gpt-6-luna": 3708
+    }
+   },
+   "cost_usd": 0.1528,
+   "partial": false
+  },
+  "gemini38f": {
+   "model_id": "google/gemini-3.8-flash",
+   "settings": {
+    "reasoning": {
+     "effort": "low",
+     "exclude": true
+    },
+    "max_tokens": 2000
+   },
+   "family": "main",
+   "pooled_K": {
+    "estimate": 0.799,
+    "ci95": [
+     0.7762,
+     0.8219
+    ],
+    "p_one_sided": 0.0004997501249375312,
+    "boot_sd": 0.012,
+    "mde_design": 0.0457,
+    "pairs": 1199,
+    "tickers": 247,
+    "n_boot": 2000
+   },
+   "per_question": {
+    "k1_beat": {
+     "estimate": 0.8696,
+     "ci95": [
+      0.821,
+      0.9122
+     ],
+     "p_one_sided": 0.0004997501249375312,
+     "boot_sd": 0.0233,
+     "mde_design": 0.0996,
+     "pairs": 253,
+     "tickers": 156,
+     "n_boot": 2000
+    },
+    "k2_react": {
+     "estimate": 0.8209,
+     "ci95": [
+      0.7863,
+      0.8557
+     ],
+     "p_one_sided": 0.0004997501249375312,
+     "boot_sd": 0.0176,
+     "mde_design": 0.0703,
+     "pairs": 508,
+     "tickers": 241,
+     "n_boot": 2000
+    },
+    "k3_drift": {
+     "estimate": 0.7329,
+     "ci95": [
+      0.6904,
+      0.7719
+     ],
+     "p_one_sided": 0.0004997501249375312,
+     "boot_sd": 0.0209,
+     "mde_design": 0.0757,
+     "pairs": 438,
+     "tickers": 231,
+     "n_boot": 2000
+    }
+   },
+   "answers": 3692,
+   "quality": {
+    "records": 3708,
+    "http_200": 3708,
+    "incomplete": 16,
+    "served": {
+     "google/gemini-3.8-flash": 3708
+    }
+   },
+   "cost_usd": 2.9638,
+   "partial": false
+  },
+  "dsv4pro": {
+   "model_id": "deepseek/deepseek-v4-pro-0813",
+   "settings": {
+    "reasoning": {
+     "enabled": false
+    },
+    "max_tokens": 300
+   },
+   "family": "main",
+   "pooled_K": {
+    "estimate": 0.5037,
+    "ci95": [
+     0.4756,
+     0.5329
+    ],
+    "p_one_sided": 0.40929535232383807,
+    "boot_sd": 0.0148,
+    "mde_design": 0.0456,
+    "pairs": 1207,
+    "tickers": 247,
+    "n_boot": 2000
+   },
+   "per_question": {
+    "k1_beat": {
+     "estimate": 0.5352,
+     "ci95": [
+      0.4717,
+      0.5984
+     ],
+     "p_one_sided": 0.1424287856071964,
+     "boot_sd": 0.0321,
+     "mde_design": 0.099,
+     "pairs": 256,
+     "tickers": 158,
+     "n_boot": 2000
+    },
+    "k2_react": {
+     "estimate": 0.4344,
+     "ci95": [
+      0.3898,
+      0.4763
+     ],
+     "p_one_sided": 0.9975012493753124,
+     "boot_sd": 0.0225,
+     "mde_design": 0.0701,
+     "pairs": 511,
+     "tickers": 242,
+     "n_boot": 2000
+    },
+    "k3_drift": {
+     "estimate": 0.5659,
+     "ci95": [
+      0.5231,
+      0.6099
+     ],
+     "p_one_sided": 0.0024987506246876563,
+     "boot_sd": 0.0221,
+     "mde_design": 0.0755,
+     "pairs": 440,
+     "tickers": 231,
+     "n_boot": 2000
+    }
+   },
+   "answers": 3707,
+   "quality": {
+    "records": 3708,
+    "http_200": 3708,
+    "incomplete": 1,
+    "served": {
+     "deepseek/deepseek-v4-pro-0813": 3708
+    }
+   },
+   "cost_usd": 1.0044,
+   "partial": false
+  },
+  "qwen38max": {
+   "model_id": "qwen/qwen3.8-max-0902",
+   "settings": {
+    "reasoning": {
+     "effort": "low",
+     "exclude": true
+    },
+    "max_tokens": 2000
+   },
+   "family": "main",
+   "pooled_K": {
+    "estimate": 0.5779,
+    "ci95": [
+     0.55,
+     0.6053
+    ],
+    "p_one_sided": 0.0004997501249375312,
+    "boot_sd": 0.0139,
+    "mde_design": 0.0456,
+    "pairs": 1206,
+    "tickers": 247,
+    "n_boot": 2000
+   },
+   "per_question": {
+    "k1_beat": {
+     "estimate": 0.5742,
+     "ci95": [
+      0.5125,
+      0.6296
+     ],
+     "p_one_sided": 0.010494752623688156,
+     "boot_sd": 0.0294,
+     "mde_design": 0.099,
+     "pairs": 256,
+     "tickers": 158,
+     "n_boot": 2000
+    },
+    "k2_react": {
+     "estimate": 0.5745,
+     "ci95": [
+      0.5323,
+      0.6181
+     ],
+     "p_one_sided": 0.0004997501249375312,
+     "boot_sd": 0.022,
+     "mde_design": 0.0701,
+     "pairs": 510,
+     "tickers": 242,
+     "n_boot": 2000
+    },
+    "k3_drift": {
+     "estimate": 0.5841,
+     "ci95": [
+      0.5383,
+      0.6285
+     ],
+     "p_one_sided": 0.0004997501249375312,
+     "boot_sd": 0.0234,
+     "mde_design": 0.0755,
+     "pairs": 440,
+     "tickers": 231,
+     "n_boot": 2000
+    }
+   },
+   "answers": 3707,
+   "quality": {
+    "records": 3708,
+    "http_200": 3708,
+    "incomplete": 1,
+    "served": {
+     "qwen/qwen3.8-max-0902": 3708
+    }
+   },
+   "cost_usd": 15.9445,
+   "partial": false
+  },
+  "kimik3": {
+   "model_id": "moonshotai/kimi-k3",
+   "settings": {
+    "reasoning": {
+     "enabled": false
+    },
+    "max_tokens": 300
+   },
+   "family": "main",
+   "pooled_K": {
+    "estimate": 0.5383,
+    "ci95": [
+     0.5111,
+     0.5673
+    ],
+    "p_one_sided": 0.0029985007496251873,
+    "boot_sd": 0.0137,
+    "mde_design": 0.0457,
+    "pairs": 1202,
+    "tickers": 247,
+    "n_boot": 2000
+   },
+   "per_question": {
+    "k1_beat": {
+     "estimate": 0.5412,
+     "ci95": [
+      0.481,
+      0.5984
+     ],
+     "p_one_sided": 0.10744627686156921,
+     "boot_sd": 0.0306,
+     "mde_design": 0.0992,
+     "pairs": 255,
+     "tickers": 158,
+     "n_boot": 2000
+    },
+    "k2_react": {
+     "estimate": 0.5512,
+     "ci95": [
+      0.5037,
+      0.5964
+     ],
+     "p_one_sided": 0.019490254872563718,
+     "boot_sd": 0.024,
+     "mde_design": 0.0703,
+     "pairs": 508,
+     "tickers": 240,
+     "n_boot": 2000
+    },
+    "k3_drift": {
+     "estimate": 0.5216,
+     "ci95": [
+      0.4748,
+      0.5677
+     ],
+     "p_one_sided": 0.18990504747626186,
+     "boot_sd": 0.0235,
+     "mde_design": 0.0756,
+     "pairs": 439,
+     "tickers": 231,
+     "n_boot": 2000
+    }
+   },
+   "answers": 3703,
+   "quality": {
+    "records": 3708,
+    "http_200": 3708,
+    "incomplete": 6,
+    "served": {
+     "moonshotai/kimi-k3": 3708
+    }
+   },
+   "cost_usd": 4.6093,
+   "partial": false
+  },
+  "grok47": {
+   "model_id": "x-ai/grok-4.7",
+   "settings": {
+    "reasoning": {
+     "effort": "low",
+     "exclude": true
+    },
+    "max_tokens": 2000
+   },
+   "family": "main",
+   "pooled_K": {
+    "estimate": 0.6025,
+    "ci95": [
+     0.5727,
+     0.6342
+    ],
+    "p_one_sided": 0.0004997501249375312,
+    "boot_sd": 0.0158,
+    "mde_design": 0.0456,
+    "pairs": 1205,
+    "tickers": 247,
+    "n_boot": 2000
+   },
+   "per_question": {
+    "k1_beat": {
+     "estimate": 0.7137,
+     "ci95": [
+      0.6584,
+      0.7702
+     ],
+     "p_one_sided": 0.0004997501249375312,
+     "boot_sd": 0.0286,
+     "mde_design": 0.0992,
+     "pairs": 255,
+     "tickers": 157,
+     "n_boot": 2000
+    },
+    "k2_react": {
+     "estimate": 0.5627,
+     "ci95": [
+      0.5198,
+      0.6075
+     ],
+     "p_one_sided": 0.0034982508745627187,
+     "boot_sd": 0.0227,
+     "mde_design": 0.0701,
+     "pairs": 510,
+     "tickers": 242,
+     "n_boot": 2000
+    },
+    "k3_drift": {
+     "estimate": 0.5841,
+     "ci95": [
+      0.5354,
+      0.6311
+     ],
+     "p_one_sided": 0.0009995002498750624,
+     "boot_sd": 0.0242,
+     "mde_design": 0.0755,
+     "pairs": 440,
+     "tickers": 231,
+     "n_boot": 2000
+    }
+   },
+   "answers": 3706,
+   "quality": {
+    "records": 3708,
+    "http_200": 3708,
+    "incomplete": 2,
+    "served": {
+     "x-ai/grok-4.7": 3708
+    }
+   },
+   "cost_usd": 24.8626,
+   "partial": false
+  },
+  "glm53": {
+   "model_id": "z-ai/glm-5.3",
+   "settings": {
+    "reasoning": {
+     "effort": "low",
+     "exclude": true
+    },
+    "max_tokens": 2000
+   },
+   "family": "main",
+   "pooled_K": {
+    "estimate": 0.5307,
+    "ci95": [
+     0.5012,
+     0.5602
+    ],
+    "p_one_sided": 0.02148925537231384,
+    "boot_sd": 0.0147,
+    "mde_design": 0.0456,
+    "pairs": 1206,
+    "tickers": 247,
+    "n_boot": 2000
+   },
+   "per_question": {
+    "k1_beat": {
+     "estimate": 0.5586,
+     "ci95": [
+      0.4961,
+      0.6226
+     ],
+     "p_one_sided": 0.03398300849575212,
+     "boot_sd": 0.0323,
+     "mde_design": 0.099,
+     "pairs": 256,
+     "tickers": 158,
+     "n_boot": 2000
+    },
+    "k2_react": {
+     "estimate": 0.5471,
+     "ci95": [
+      0.5049,
+      0.589
+     ],
+     "p_one_sided": 0.01649175412293853,
+     "boot_sd": 0.0215,
+     "mde_design": 0.0701,
+     "pairs": 510,
+     "tickers": 241,
+     "n_boot": 2000
+    },
+    "k3_drift": {
+     "estimate": 0.4955,
+     "ci95": [
+      0.4492,
+      0.5422
+     ],
+     "p_one_sided": 0.584207896051974,
+     "boot_sd": 0.0242,
+     "mde_design": 0.0755,
+     "pairs": 440,
+     "tickers": 231,
+     "n_boot": 2000
+    }
+   },
+   "answers": 3708,
+   "quality": {
+    "records": 3708,
+    "http_200": 3708,
+    "incomplete": 5,
+    "served": {
+     "z-ai/glm-5.3": 3708
+    }
+   },
+   "cost_usd": 2.7035,
+   "partial": false
+  },
+  "opus55": {
+   "model_id": "anthropic/claude-opus-5.5",
+   "settings": {
+    "reasoning": {
+     "effort": "low",
+     "exclude": true
+    },
+    "max_tokens": 2000
+   },
+   "family": "addendum2",
+   "pooled_K": {
+    "estimate": 0.7664,
+    "ci95": [
+     0.742,
+     0.7918
+    ],
+    "p_one_sided": 0.0004997501249375312,
+    "boot_sd": 0.0128,
+    "mde_design": 0.0456,
+    "pairs": 1207,
+    "tickers": 247,
+    "n_boot": 2000
+   },
+   "per_question": {
+    "k1_beat": {
+     "estimate": 0.6992,
+     "ci95": [
+      0.6414,
+      0.7605
+     ],
+     "p_one_sided": 0.0004997501249375312,
+     "boot_sd": 0.0307,
+     "mde_design": 0.099,
+     "pairs": 256,
+     "tickers": 158,
+     "n_boot": 2000
+    },
+    "k2_react": {
+     "estimate": 0.7671,
+     "ci95": [
+      0.7273,
+      0.8066
+     ],
+     "p_one_sided": 0.0004997501249375312,
+     "boot_sd": 0.0204,
+     "mde_design": 0.0701,
+     "pairs": 511,
+     "tickers": 242,
+     "n_boot": 2000
+    },
+    "k3_drift": {
+     "estimate": 0.8045,
+     "ci95": [
+      0.7652,
+      0.8414
+     ],
+     "p_one_sided": 0.0004997501249375312,
+     "boot_sd": 0.0196,
+     "mde_design": 0.0755,
+     "pairs": 440,
+     "tickers": 231,
+     "n_boot": 2000
+    }
+   },
+   "answers": 3708,
+   "quality": {
+    "records": 3708,
+    "http_200": 3708,
+    "incomplete": 0,
+    "served": {
+     "anthropic/claude-opus-5.5": 3708
+    }
+   },
+   "cost_usd": 24.3134,
+   "partial": false
+  },
+  "gpt6astra": {
+   "model_id": "openai/gpt-6-astra",
+   "settings": {
+    "reasoning": {
+     "effort": "low",
+     "exclude": true
+    },
+    "max_tokens": 2000
+   },
+   "family": "addendum2",
+   "pooled_K": {
+    "estimate": 0.9039,
+    "ci95": [
+     0.886,
+     0.9214
+    ],
+    "p_one_sided": 0.0004997501249375312,
+    "boot_sd": 0.009,
+    "mde_design": 0.0456,
+    "pairs": 1207,
+    "tickers": 247,
+    "n_boot": 2000
+   },
+   "per_question": {
+    "k1_beat": {
+     "estimate": 0.9102,
+     "ci95": [
+      0.875,
+      0.9414
+     ],
+     "p_one_sided": 0.0004997501249375312,
+     "boot_sd": 0.0173,
+     "mde_design": 0.099,
+     "pairs": 256,
+     "tickers": 158,
+     "n_boot": 2000
+    },
+    "k2_react": {
+     "estimate": 0.9002,
+     "ci95": [
+      0.8717,
+      0.9266
+     ],
+     "p_one_sided": 0.0004997501249375312,
+     "boot_sd": 0.0141,
+     "mde_design": 0.0701,
+     "pairs": 511,
+     "tickers": 242,
+     "n_boot": 2000
+    },
+    "k3_drift": {
+     "estimate": 0.9045,
+     "ci95": [
+      0.8778,
+      0.9303
+     ],
+     "p_one_sided": 0.0004997501249375312,
+     "boot_sd": 0.0135,
+     "mde_design": 0.0755,
+     "pairs": 440,
+     "tickers": 231,
+     "n_boot": 2000
+    }
+   },
+   "answers": 3708,
+   "quality": {
+    "records": 3708,
+    "http_200": 3708,
+    "incomplete": 0,
+    "served": {
+     "openai/gpt-6-astra": 3708
+    }
+   },
+   "cost_usd": 48.4508,
+   "partial": false
+  },
+  "dsv41flash": {
+   "model_id": "deepseek/deepseek-v4.1-flash",
+   "settings": {
+    "reasoning": {
+     "enabled": false
+    },
+    "max_tokens": 300
+   },
+   "family": "addendum2",
+   "pooled_K": {
+    "estimate": 0.551,
+    "ci95": [
+     0.5213,
+     0.5782
+    ],
+    "p_one_sided": 0.0004997501249375312,
+    "boot_sd": 0.0149,
+    "mde_design": 0.0456,
+    "pairs": 1205,
+    "tickers": 247,
+    "n_boot": 2000
+   },
+   "per_question": {
+    "k1_beat": {
+     "estimate": 0.5391,
+     "ci95": [
+      0.4808,
+      0.5983
+     ],
+     "p_one_sided": 0.09295352323838081,
+     "boot_sd": 0.0297,
+     "mde_design": 0.099,
+     "pairs": 256,
+     "tickers": 158,
+     "n_boot": 2000
+    },
+    "k2_react": {
+     "estimate": 0.5922,
+     "ci95": [
+      0.5496,
+      0.6358
+     ],
+     "p_one_sided": 0.0004997501249375312,
+     "boot_sd": 0.0227,
+     "mde_design": 0.0701,
+     "pairs": 510,
+     "tickers": 242,
+     "n_boot": 2000
+    },
+    "k3_drift": {
+     "estimate": 0.5103,
+     "ci95": [
+      0.4641,
+      0.5557
+     ],
+     "p_one_sided": 0.3218390804597701,
+     "boot_sd": 0.0234,
+     "mde_design": 0.0756,
+     "pairs": 439,
+     "tickers": 230,
+     "n_boot": 2000
+    }
+   },
+   "answers": 3707,
+   "quality": {
+    "records": 3708,
+    "http_200": 3708,
+    "incomplete": 1,
+    "served": {
+     "deepseek/deepseek-v4.1-flash": 3708
+    }
+   },
+   "cost_usd": 0.2688,
+   "partial": false
+  },
+  "qwen38flash": {
+   "model_id": "qwen/qwen3.8-flash",
+   "settings": {
+    "reasoning": {
+     "enabled": false
+    },
+    "max_tokens": 300
+   },
+   "family": "addendum2",
+   "pooled_K": {
+    "estimate": 0.4979,
+    "ci95": [
+     0.4698,
+     0.5266
+    ],
+    "p_one_sided": 0.5707146426786607,
+    "boot_sd": 0.0146,
+    "mde_design": 0.0456,
+    "pairs": 1207,
+    "tickers": 247,
+    "n_boot": 2000
+   },
+   "per_question": {
+    "k1_beat": {
+     "estimate": 0.5156,
+     "ci95": [
+      0.4585,
+      0.5741
+     ],
+     "p_one_sided": 0.29985007496251875,
+     "boot_sd": 0.0299,
+     "mde_design": 0.099,
+     "pairs": 256,
+     "tickers": 158,
+     "n_boot": 2000
+    },
+    "k2_react": {
+     "estimate": 0.4971,
+     "ci95": [
+      0.4545,
+      0.5374
+     ],
+     "p_one_sided": 0.5702148925537232,
+     "boot_sd": 0.0216,
+     "mde_design": 0.0701,
+     "pairs": 511,
+     "tickers": 242,
+     "n_boot": 2000
+    },
+    "k3_drift": {
+     "estimate": 0.4886,
+     "ci95": [
+      0.4427,
+      0.5356
+     ],
+     "p_one_sided": 0.7006496751624188,
+     "boot_sd": 0.0236,
+     "mde_design": 0.0755,
+     "pairs": 440,
+     "tickers": 231,
+     "n_boot": 2000
+    }
+   },
+   "answers": 3708,
+   "quality": {
+    "records": 3708,
+    "http_200": 3708,
+    "incomplete": 0,
+    "served": {
+     "qwen/qwen3.8-flash": 3708
+    }
+   },
+   "cost_usd": 0.2252,
+   "partial": false
+  }
+ },
+ "holm_new_models": {
+  "gpt6sol": {
+   "p": 0.0004997501249375312,
+   "holm_threshold": 0.00625,
+   "reject_null": true
+  },
+  "gpt6luna": {
+   "p": 0.0004997501249375312,
+   "holm_threshold": 0.0071428571428571435,
+   "reject_null": true
+  },
+  "gemini38f": {
+   "p": 0.0004997501249375312,
+   "holm_threshold": 0.008333333333333333,
+   "reject_null": true
+  },
+  "qwen38max": {
+   "p": 0.0004997501249375312,
+   "holm_threshold": 0.01,
+   "reject_null": true
+  },
+  "grok47": {
+   "p": 0.0004997501249375312,
+   "holm_threshold": 0.0125,
+   "reject_null": true
+  },
+  "kimik3": {
+   "p": 0.0029985007496251873,
+   "holm_threshold": 0.016666666666666666,
+   "reject_null": true
+  },
+  "glm53": {
+   "p": 0.02148925537231384,
+   "holm_threshold": 0.025,
+   "reject_null": true
+  },
+  "dsv4pro": {
+   "p": 0.40929535232383807,
+   "holm_threshold": 0.05,
+   "reject_null": false
+  }
+ },
+ "holm_add2": {
+  "opus55": {
+   "p": 0.0004997501249375312,
+   "holm_threshold": 0.0125,
+   "reject_null": true
+  },
+  "gpt6astra": {
+   "p": 0.0004997501249375312,
+   "holm_threshold": 0.016666666666666666,
+   "reject_null": true
+  },
+  "dsv41flash": {
+   "p": 0.0004997501249375312,
+   "holm_threshold": 0.025,
+   "reject_null": true
+  },
+  "qwen38flash": {
+   "p": 0.5707146426786607,
+   "holm_threshold": 0.05,
+   "reject_null": false
+  }
+ },
+ "holm_von": {
+  "von": {
+   "p": 0.005497251374312844,
+   "holm_threshold": 0.05,
+   "reject_null": true
+  }
+ }
+}
