@@ -7,3 +7,4 @@ studies/*/data/fmp/
 studies/*/work/*.jsonl
 studies/*/runs/
 .DS_Store
+.agent-dispatch.json

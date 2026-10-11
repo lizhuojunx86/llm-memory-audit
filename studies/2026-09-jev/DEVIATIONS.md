@@ -24,3 +24,17 @@ Outcome of D2: 3,708 of 3,708 Sonnet 5 answers came back with `finish_reason = "
 
 - `results/posthoc_same_subsample_jev_vs_sonnet.json`: Jev and Sonnet 5 scored on exactly the same 1,207 within-company pairs of subsample S (Jev 0.483, 95% CI 0.458 to 0.509; Sonnet 5 0.587, 0.560 to 0.614). Added after seeing the results to make the comparison like-for-like. Descriptive only.
 - Llama 3.1 70B returned a misspelled key (`k1_be`) in 55 of 3,708 K-arm answers and an incomplete answer in 5 N-arm ones. Under section 6 these are invalid outputs and are dropped; nothing was repaired.
+
+## D3 · 2026-10-11 · Analysis code changed after publication: tie policies and a private-data path (no result in `results/results.json` changed)
+
+What prompted it: an outside review found that the within-company statistic compares scores *after* month-demeaning and only then checks for a tie. Two answers from the same model that are identical in the raw output sit in different months, so after demeaning their difference equals the gap between the two month means. That gap has nothing to do with the firm. For Jev 30% of the same-company 2023-vs-2024 pairs are raw ties on the pooled K questions; for Llama 3.1 70B it is 73%, for DeepSeek V4 Pro 79%. `tests/test_stats.py` drew continuous Gaussian scores, so it never produced a tie and could not see this.
+
+Change: `src/analyze.py` gained a `--ties` option with three policies. `demeaned` is the frozen behaviour and stays the default; `results/results.json` and `results/results.md` are untouched. `raw_tie_half` counts a raw tie as one half and otherwise lets the demeaned difference decide. `raw` drops demeaning and compares raw scores. The two new policies write to `results/ties_raw_tie_half/` and `results/ties_raw/`. `src/common.py` now reads `LMA_JEV_PRIVATE` for the location of `runs/` and `work/`, so the code runs from the published tree against private data kept elsewhere; the default is unchanged. `tests/test_ties.py` adds six tests, including a null draw on a coarse score grid with base-rate drift. Frozen originals: `frozen_code/analyze.py`, `frozen_code/common.py` (their SHA-256 match `freeze.json`).
+
+What it does to Jev: nothing that matters. Pooled K within-company AUC is 0.504 (0.479 to 0.531) demeaned, 0.511 (0.489 to 0.533) with raw ties as one half, 0.504 (0.481 to 0.528) raw. H1 to H5 stay inside their intervals under every policy, the decision rule returns `no_detectable_leakage_provisional` each time, and the Sonnet 5 control stays above 0.5 (0.568 and 0.567 under the two new policies). Full numbers are in the two `results/ties_*/` folders.
+
+Order of events: both new policies were run after the published results had been read. They are post-hoc checks, not pre-registered tests.
+
+## Not a deviation, but the README did not say it
+
+- PREREG section 7 expected Llama 3.1 70B, whose stated cutoff is December 2023, to show memory of 2023 and none after. It shows none of 2023 either: within-2023 wtAUC on the beat question 0.447, pooled 0.490 (0.464 to 0.517). So one of the two sensitivity checks on the probe failed. Only Sonnet 5 passed. The 'no detectable memory' verdict for Jev rests on a probe that found memory in one of two models expected to have it.

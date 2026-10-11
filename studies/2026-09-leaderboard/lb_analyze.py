@@ -35,6 +35,12 @@ YEARS = (2023, 2024, 2025, 2026)
 WITHIN_YEAR_NOTE = ("pairs are two events of the same ticker and the same question inside one calendar "
                     "year; seasons necessarily differ, so this is NOT season-matched. 2025 and 2026 are a "
                     "placebo (those events post-date most models' training data).")
+# Pairs where both events fall on or after this date post-date the latest published training cutoff
+# among the models tested (GPT-6 Astra: 2026-04-30). Any within-company AUC above 0.5 here cannot be
+# recall of the outcome, so this bounds the non-memory channels (date heuristics, trend knowledge).
+POST_CUTOFF_DATE = "2026-05-01"
+POST_CUTOFF_NOTE = ("pairs are two events of the same ticker and the same question, both dated on or after "
+                    f"{POST_CUTOFF_DATE}; not season-matched. Bounds the non-memory channels.")
 
 
 def private_roots() -> tuple[Path, Path, Path]:
@@ -92,6 +98,10 @@ def load_lb(lb_runs: Path, add2_runs: Path):
             outs[(r["model_key"], "K", r["event_id"], 0, False)] = ps
         quality[p.stem], cost[p.stem] = q, round(c, 4)
     return outs, quality, cost
+
+
+def _pair_ok_post_cutoff_same_q(a: dict, b: dict) -> bool:
+    return a["q"] == b["q"] and a["date"] >= POST_CUTOFF_DATE and b["date"] >= POST_CUTOFF_DATE
 
 
 def _pair_ok_within_year_same_q(year: int):
@@ -154,6 +164,9 @@ def main(boot: int = 2000, ties: str = "demeaned") -> None:
             wy[str(y)] = {tp: A.wt_auc_test(pooled, "s_dm", _pair_ok_within_year_same_q(y), B, SEED + 1005, ties=tp)
                           for tp in A.TIE_POLICIES}
         entry["within_year"] = wy
+        entry["post_cutoff"] = {"note": POST_CUTOFF_NOTE, "date": POST_CUTOFF_DATE}
+        for tp in A.TIE_POLICIES:
+            entry["post_cutoff"][tp] = A.wt_auc_test(pooled, "s_dm", _pair_ok_post_cutoff_same_q, B, SEED + 1006, ties=tp)
         if m in quality:
             entry["quality"], entry["cost_usd"] = quality[m], cost[m]
             entry["partial"] = quality[m]["http_200"] < 3708
@@ -182,8 +195,20 @@ def main(boot: int = 2000, ties: str = "demeaned") -> None:
         if m == "von":
             reason = "n/a (local)"
         L.append(f"| {v['model_id']} | {pk['estimate']:.3f} ({pk['ci95'][0]:.3f} to {pk['ci95'][1]:.3f}) | {pk['pairs']} | {verdict} | {reason} |")
-    (out_dir / "leaderboard.md").write_text("\n".join(L) + "\n")
+    # placebo table: within-year AUC per calendar year, plus pairs both dated on/after POST_CUTOFF_DATE
+    def _cell(t):
+        return "–" if not t or t.get("estimate") is None else f"{t['estimate']:.3f} ({t['ci95'][0]:.3f} to {t['ci95'][1]:.3f}, n={t['pairs']})"
+    P = [f"\nWithin-company AUC under tie policy `{ties}`, pairs inside one calendar year (not season-matched), "
+         f"and pairs with both events on or after {POST_CUTOFF_DATE}.\n",
+         "| Model | " + " | ".join(str(y) for y in YEARS) + f" | both ≥ {POST_CUTOFF_DATE} |",
+         "|---|" + "---|" * (len(YEARS) + 1)]
+    for m in order:
+        v = res["models"][m]
+        P.append(f"| {v['model_id']} | " + " | ".join(_cell(v["within_year"][str(y)][ties]) for y in YEARS)
+                 + f" | {_cell(v['post_cutoff'][ties])} |")
+    (out_dir / "leaderboard.md").write_text("\n".join(L) + "\n" + "\n".join(P) + "\n")
     print("\n".join(L))
+    print("\n".join(P))
     print(json.dumps({m: {"quality": v.get("quality"), "cost": v.get("cost_usd")} for m, v in res["models"].items() if m in allm}, indent=0))
 
 

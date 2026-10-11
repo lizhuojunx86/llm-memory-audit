@@ -14,7 +14,9 @@ I asked Jev (TypeSafe, served as `typesafe/jev-1.13-20260917`) about 12,533 US e
 
 H1 to H3 are within-company AUCs, where 0.5 means no memory. H4 and H5 are differences, where 0 means no memory. The same probe run on Claude Sonnet 5 gives 0.587 (0.561 to 0.613) pooled, so it does find memory in a model that has it. Everything else is in `results/results.md`.
 
-The protocol is `PREREG.md`, frozen 2026-09-23T03:49:37Z. One thing changed after the freeze, for the control model only, and `DEVIATIONS.md` says what and why.
+The protocol is `PREREG.md`, frozen 2026-09-23T03:49:37Z. Two things changed after the freeze: the control model's token settings (D2) and, after publication, the analysis code (D3). `DEVIATIONS.md` says what and why.
+
+Two caveats the first version of this page left out. The probe was checked against two models expected to remember 2023: Sonnet 5 does (0.587 pooled), Llama 3.1 70B does not (0.490, and 0.447 on 2023 beats), so one of the two sensitivity checks failed. And the statistic scored raw ties by month averages, which an outside reader caught on 2026-10-11; for Jev 30% of pairs are raw ties. Rescored with ties as one half, or with no demeaning at all, Jev gives 0.511 and 0.504. The verdict holds, but on a probe that found memory in one of two models that should have it.
 
 What the timestamp proves: `freeze.json.ots` anchors `freeze.json` in Bitcoin blocks 968225 (mined 2026-09-23T04:51:43Z) and 968226. The stamp was requested seconds before the first study request at 03:49:45Z, but the Jev run had finished by 04:03Z, so the proof on its own shows only that the protocol existed by 04:51:43Z. The prospective set below doesn't depend on that.
 
@@ -26,7 +28,7 @@ What the timestamp proves: `freeze.json.ots` anchors `freeze.json` in Bitcoin bl
 | `DEVIATIONS.md` | every change after the freeze |
 | `freeze.json`, `freeze.json.ots` | SHA-256 of the protocol, code and every input, and its OpenTimestamps proof |
 | `src/`, `tests/` | the pipeline and its 17 tests |
-| `frozen_code/run_models.py` | `run_models.py` as frozen, before the D2 change |
+| `frozen_code/` | `run_models.py`, `analyze.py` and `common.py` as frozen, before D2 and D3 |
 | `preflight/` | pipeline checks on a fictional company |
 | `data/universe.json`, `data/fetch_log.jsonl` | the 900 tickers and the log of what was pulled from FMP |
 | `work/manifest.json` | sample composition and base rates by period |
@@ -34,8 +36,10 @@ What the timestamp proves: `freeze.json.ots` anchors `freeze.json` in Bitcoin bl
 | `public_data/prospective_events.csv` | 757 announcements from October and November 2026 that Jev was asked about before they happened |
 | `public_data/model_outputs.csv.gz` | every probability parsed from Jev, Sonnet 5 and Llama 3.1 70B |
 | `public_data/output_quality.json` | per model and arm: records, HTTP statuses, served model versions, incomplete answers |
-| `results/` | summary statistics from 10,000 bootstrap draws, plus the Jev-only interim run |
+| `results/` | summary statistics from 10,000 bootstrap draws, the Jev-only interim run, and `ties_raw_tie_half/`, `ties_raw/` for the two post-hoc tie policies (D3) |
+| `freeze_outputs.json` | SHA-256 of every raw model log, public output file and results file, written after the runs; `tools/freeze_outputs.py check --study jev` rehashes them |
 | `tools/check_freeze.py` | rehashes every published file against `freeze.json` |
+| `tools/freeze_outputs.py` | hashes outputs (private logs by name and hash only) into `freeze_outputs.json`, and checks them |
 | `tools/sim_crosssectional_false_positive.py` | the simulation that ruled out my first test design |
 
 ## What isn't here
@@ -47,12 +51,13 @@ The earnings and price data come from Financial Modeling Prep, whose licence doe
 ```bash
 pip install -r requirements.txt
 python tools/check_freeze.py      # also confirms freeze.json.ots commits to this freeze.json
-python -m pytest tests -q         # 17 passed
+python -m pytest tests -q         # 27 passed
+python tools/freeze_outputs.py check --study jev
 python tools/sim_crosssectional_false_positive.py 200
 ots info freeze.json.ots
 ```
 
-One published file differs from its frozen hash on purpose: `src/run_models.py` gained the `--override` flag under D2. Its frozen original is `frozen_code/run_models.py`.
+Three published files differ from their frozen hashes on purpose: `src/run_models.py` gained the `--override` flag under D2, and `src/analyze.py` and `src/common.py` gained the tie policies and the `LMA_JEV_PRIVATE` path under D3. The frozen originals are in `frozen_code/`.
 
 ## Rebuild it
 
@@ -66,6 +71,7 @@ python src/run_models.py --model jev --max-seconds 150      # resumable; repeat 
 python src/run_models.py --model sonnet5 --max-seconds 150 --override '{"reasoning": {"enabled": false}, "max_tokens": 300}'
 python src/run_models.py --model llama31 --max-seconds 150
 python src/analyze.py --boot 10000
+python src/analyze.py --boot 10000 --ties raw_tie_half   # and --ties raw; see D3
 ```
 
 Start from `fetch`. The `universe` step drew the 400 non-S&P tickers from my private PEAD research list, and `data/universe.json` is what it produced. FMP revises EPS and prices over time, so a rebuild won't reproduce my hashes. Jev's 38,956 calls cost me US$0.93 on OpenRouter, and the two control models another US$5.80.
