@@ -18,9 +18,12 @@ import re
 from typing import Iterable, Iterator
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
+# Private inputs (labels, raw model logs) may live outside the published tree.
+# LMA_JEV_PRIVATE defaults to ROOT so the published layout keeps working unchanged.
+_JEV_PRIVATE = pathlib.Path(os.environ.get("LMA_JEV_PRIVATE", str(ROOT)))
 DATA = ROOT / "data"
-WORK = ROOT / "work"
-RUNS = ROOT / "runs"
+WORK = _JEV_PRIVATE / "work"
+RUNS = _JEV_PRIVATE / "runs"
 RESULTS = ROOT / "results"
 
 SEED = 20260923

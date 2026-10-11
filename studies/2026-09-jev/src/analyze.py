@@ -36,6 +36,13 @@ Z_MDE = 2.326 + 0.842          # one-sided alpha 0.01 (first Holm step with 5 te
 PIN_MIN_SHARE = 0.80
 SEASON_MATCH = ((4, 1), (8, 14))   # PRE window matched to the POST season, cross-sectional S3 only
 
+# Tie policy for the within-company statistic (see wt_parts).
+#   demeaned     month-demeaned scores decide every pair (frozen protocol; ties in raw scores
+#                are broken by the two month means)
+#   raw_tie_half raw-score ties count 0.5; otherwise the demeaned difference decides
+#   raw          no demeaning: sign of the raw difference, raw ties 0.5
+TIE_POLICIES = ("demeaned", "raw_tie_half", "raw")
+
 
 # ------------------------------------------------------------------ AUC building blocks
 
@@ -112,8 +119,22 @@ def _pair_ok_within_year(year: int):
     return lambda a, b: a["year"] == year and b["year"] == year
 
 
-def wt_parts(rows: list[dict], keys: tuple[str, ...], pair_ok) -> tuple[list[str], np.ndarray, np.ndarray]:
-    """Per ticker: concordance numerators (one column per score key) and informative-pair counts."""
+def _raw_of(key: str) -> str:
+    """Raw-score key for a demeaned key ('s_dm' -> 's'); passthrough otherwise."""
+    return key[:-3] if key.endswith("_dm") else key
+
+
+def wt_parts(rows: list[dict], keys: tuple[str, ...], pair_ok, ties: str = "demeaned"
+             ) -> tuple[list[str], np.ndarray, np.ndarray]:
+    """Per ticker: concordance numerators (one column per score key) and informative-pair counts.
+
+    ties selects how a pair is scored:
+      demeaned     compare the demeaned keys (frozen behaviour)
+      raw_tie_half raw tie (|Δraw| <= 1e-9) counts 0.5, else the demeaned difference decides
+      raw          compare the raw keys, raw ties 0.5
+    """
+    if ties not in TIE_POLICIES:
+        raise ValueError(f"ties must be one of {TIE_POLICIES}, got {ties!r}")
     by_t = collections.defaultdict(list)
     for r in rows:
         by_t[r["ticker"]].append(r)
@@ -129,8 +150,18 @@ def wt_parts(rows: list[dict], keys: tuple[str, ...], pair_ok) -> tuple[list[str
                     continue
                 pos, neg = (a, b) if a["y"] == 1 else (b, a)
                 for k, key in enumerate(keys):
-                    d = pos[key] - neg[key]
-                    num[k] += 1.0 if d > 1e-9 else (0.5 if d >= -1e-9 else 0.0)
+                    if ties == "raw":
+                        d = pos[_raw_of(key)] - neg[_raw_of(key)]
+                        num[k] += 1.0 if d > 1e-9 else (0.5 if d >= -1e-9 else 0.0)
+                    elif ties == "raw_tie_half":
+                        if abs(pos[_raw_of(key)] - neg[_raw_of(key)]) <= 1e-9:
+                            num[k] += 0.5
+                        else:
+                            d = pos[key] - neg[key]
+                            num[k] += 1.0 if d > 1e-9 else (0.5 if d >= -1e-9 else 0.0)
+                    else:
+                        d = pos[key] - neg[key]
+                        num[k] += 1.0 if d > 1e-9 else (0.5 if d >= -1e-9 else 0.0)
                 den += 1
         if den:
             ticks.append(t)
@@ -139,9 +170,9 @@ def wt_parts(rows: list[dict], keys: tuple[str, ...], pair_ok) -> tuple[list[str
     return ticks, np.array(nums, float).reshape(-1, len(keys)), np.array(dens, float)
 
 
-def wt_auc_test(rows: list[dict], key: str, pair_ok, B: int, seed: int) -> dict:
+def wt_auc_test(rows: list[dict], key: str, pair_ok, B: int, seed: int, ties: str = "demeaned") -> dict:
     """wtAUC against 0.5 (H1-H3 style). Ticker bootstrap weights numerator and denominator by k."""
-    ticks, num, den = wt_parts(rows, (key,), pair_ok)
+    ticks, num, den = wt_parts(rows, (key,), pair_ok, ties=ties)
     if len(ticks) == 0:
         return {"estimate": None, "pairs": 0}
     num = num[:, 0]
@@ -159,9 +190,10 @@ def wt_auc_test(rows: list[dict], key: str, pair_ok, B: int, seed: int) -> dict:
             "mde_design": round(Z_MDE * se0, 4), "pairs": pairs, "tickers": len(ticks), "n_boot": int(len(boots))}
 
 
-def wt_diff_test(rows: list[dict], key_n: str, key_a: str, pair_ok, B: int, seed: int) -> dict:
+def wt_diff_test(rows: list[dict], key_n: str, key_a: str, pair_ok, B: int, seed: int,
+                 ties: str = "demeaned") -> dict:
     """wtAUC(N) - wtAUC(A) on the same pairs, against 0 (H4/H5 style)."""
-    ticks, num, den = wt_parts(rows, (key_n, key_a), pair_ok)
+    ticks, num, den = wt_parts(rows, (key_n, key_a), pair_ok, ties=ties)
     if len(ticks) == 0:
         return {"estimate": None, "pairs": 0}
     point_n = float(num[:, 0].sum() / den.sum())
@@ -358,7 +390,9 @@ def in_season_match(date: str) -> bool:
 
 # ------------------------------------------------------------------ analysis
 
-def run(B: int) -> dict:
+def run(B: int, ties: str = "demeaned") -> dict:
+    if ties not in TIE_POLICIES:
+        raise ValueError(f"ties must be one of {TIE_POLICIES}, got {ties!r}")
     events = {e["event_id"]: e for e in jsonl_read(WORK / "events.jsonl")}
     outs, quality = load_outputs()
     tick_pre = {e["ticker"] for e in events.values() if e["period"] in PRE}
@@ -419,10 +453,10 @@ def run(B: int) -> dict:
     prim = {}
     for h, qid in (("H1", "k1_beat"), ("H2", "k2_react"), ("H3", "k3_drift")):
         prim[h] = {"question": qid,
-                   **wt_auc_test(panel_only(k_rows("jev", qid)), "s_dm", _pair_ok_pre, B, SEED + int(h[1]))}
+                   **wt_auc_test(panel_only(k_rows("jev", qid)), "s_dm", _pair_ok_pre, B, SEED + int(h[1]), ties=ties)}
     for h, qid in (("H4", "r3_drift"), ("H5", "r2_react")):
         prim[h] = {"question": qid,
-                   **wt_diff_test(panel_only(na_rows("jev", qid)), "sN_dm", "sA_dm", _pair_ok_pre, B, SEED + int(h[1]))}
+                   **wt_diff_test(panel_only(na_rows("jev", qid)), "sN_dm", "sA_dm", _pair_ok_pre, B, SEED + int(h[1]), ties=ties)}
     pv = {h: v["p_one_sided"] for h, v in prim.items() if v.get("estimate") is not None}
     res["primary"] = prim
     res["holm"] = holm(pv) if pv else {}
@@ -433,7 +467,7 @@ def run(B: int) -> dict:
     s1 = {"within_year_wtauc": {}, "cross_sectional_auc_by_period": {}}
     for qid in ("k1_beat", "k2_react", "k3_drift"):
         rows = k_rows("jev", qid)
-        s1["within_year_wtauc"][qid] = {y: wt_auc_test(rows, "s_dm", _pair_ok_within_year(y), B // 5, SEED + 101)
+        s1["within_year_wtauc"][qid] = {y: wt_auc_test(rows, "s_dm", _pair_ok_within_year(y), B // 5, SEED + 101, ties=ties)
                                         for y in years}
         s1["cross_sectional_auc_by_period"][qid] = {
             name: auc_with_ci([r["s"] for r in rows if r["period"] == name],
@@ -446,10 +480,10 @@ def run(B: int) -> dict:
         sub[label] = {}
         for h, qid in (("H1", "k1_beat"), ("H2", "k2_react"), ("H3", "k3_drift")):
             rows = [r for r in panel_only(k_rows("jev", qid)) if fn(r)]
-            sub[label][h] = wt_auc_test(rows, "s_dm", _pair_ok_pre, B // 5, SEED + 201)
+            sub[label][h] = wt_auc_test(rows, "s_dm", _pair_ok_pre, B // 5, SEED + 201, ties=ties)
         for h, qid in (("H4", "r3_drift"), ("H5", "r2_react")):
             rows = [r for r in panel_only(na_rows("jev", qid)) if fn(r)]
-            sub[label][h] = wt_diff_test(rows, "sN_dm", "sA_dm", _pair_ok_pre, B // 5, SEED + 202)
+            sub[label][h] = wt_diff_test(rows, "sN_dm", "sA_dm", _pair_ok_pre, B // 5, SEED + 202, ties=ties)
     sec["S2_subgroups"] = sub
     s3 = {}
     for qid in ("k1_beat", "k2_react", "k3_drift"):
@@ -498,16 +532,16 @@ def run(B: int) -> dict:
             cal[f"{qid}|A"] = calibration(np.array([r["sA"] for r in rr]), np.array([r["y"] for r in rr]))
     sec["S6_calibration"] = cal
     rows = [r for r in panel_only(k_rows("jev", "k1_beat")) if r["surp"] is not None and abs(r["surp"]) >= 2.0]
-    sec["S8_h1_clear_surprises"] = wt_auc_test(rows, "s_dm", _pair_ok_pre, B // 5, SEED + 801)
+    sec["S8_h1_clear_surprises"] = wt_auc_test(rows, "s_dm", _pair_ok_pre, B // 5, SEED + 801, ties=ties)
     s9 = {}
     for h, qid in (("H1", "k1_beat"), ("H2", "k2_react"), ("H3", "k3_drift")):
-        s9[h] = wt_auc_test(panel_only(k_rows("jev", qid, fill=0.5)), "s_dm", _pair_ok_pre, B // 5, SEED + 901)
+        s9[h] = wt_auc_test(panel_only(k_rows("jev", qid, fill=0.5)), "s_dm", _pair_ok_pre, B // 5, SEED + 901, ties=ties)
     for h, qid in (("H4", "r3_drift"), ("H5", "r2_react")):
         s9[h] = wt_diff_test(panel_only(na_rows("jev", qid, fill=0.5)), "sN_dm", "sA_dm", _pair_ok_pre,
-                             B // 5, SEED + 902)
+                             B // 5, SEED + 902, ties=ties)
     sec["S9_missing_filled_0_5"] = s9
     pooled = [dict(r, q=qid) for qid in ("k1_beat", "k2_react", "k3_drift") for r in panel_only(k_rows("jev", qid))]
-    sec["S10_pooled_K"] = wt_auc_test(pooled, "s_dm", _pair_ok_pre_same_q, B // 5, SEED + 1010)
+    sec["S10_pooled_K"] = wt_auc_test(pooled, "s_dm", _pair_ok_pre_same_q, B // 5, SEED + 1010, ties=ties)
     vr = {}
     for arm in ("K", "N", "A"):
         vr[arm] = {}
@@ -524,19 +558,19 @@ def run(B: int) -> dict:
         c = {"wt_pre": {}, "within_year": {}}
         for qid in ("k1_beat", "k2_react", "k3_drift"):
             rows = [r for r in k_rows(model, qid) if r["in_S"]]
-            c["wt_pre"][qid] = wt_auc_test(rows, "s_dm", _pair_ok_pre, B // 5, SEED + 1001)
-            c["within_year"][qid] = {y: wt_auc_test(rows, "s_dm", _pair_ok_within_year(y), B // 10, SEED + 1002)
+            c["wt_pre"][qid] = wt_auc_test(rows, "s_dm", _pair_ok_pre, B // 5, SEED + 1001, ties=ties)
+            c["within_year"][qid] = {y: wt_auc_test(rows, "s_dm", _pair_ok_within_year(y), B // 10, SEED + 1002, ties=ties)
                                      for y in years}
         if "N" in arms:
             for qid in ("r2_react", "r3_drift"):
                 rows = [r for r in na_rows(model, qid) if r["in_S"]]
                 c[f"wt_pre_named_minus_anon_{qid}"] = wt_diff_test(rows, "sN_dm", "sA_dm", _pair_ok_pre,
-                                                                    B // 5, SEED + 1003)
+                                                                    B // 5, SEED + 1003, ties=ties)
         ctrl[model] = c
     # probe validity: Sonnet 5, K arm, pairs of all three statements pooled (one pre-specified statistic)
     for model in ("sonnet5", "llama31"):
         pooled = [dict(r, q=qid) for qid in ("k1_beat", "k2_react", "k3_drift") for r in k_rows(model, qid) if r["in_S"]]
-        ctrl[model]["wt_pre_pooled_K"] = wt_auc_test(pooled, "s_dm", _pair_ok_pre_same_q, B // 5, SEED + 1004)
+        ctrl[model]["wt_pre_pooled_K"] = wt_auc_test(pooled, "s_dm", _pair_ok_pre_same_q, B // 5, SEED + 1004, ties=ties)
     v = ctrl["sonnet5"]["wt_pre_pooled_K"]
     ctrl["probe_valid"] = bool(v.get("ci95") and v["ci95"][0] > 0.5)
     res["controls"] = ctrl
@@ -558,15 +592,45 @@ def run(B: int) -> dict:
     res["decision"] = {"verdict": verdict, "memory_H1_H3": memory, "named_backtest_leak_H4_H5": bt_leak,
                        "within_2026_wtauc_above_0_5": flag_2026,
                        "note": "'provisional' until the prospective set is scored (after 2027-01-08)."}
+    if ties != "demeaned":
+        res["ties_policy"] = ties
+        res["posthoc_same_subsample"] = _posthoc_same_subsample(k_rows, B, ties)
     return res
 
 
+def _posthoc_same_subsample(k_rows, B: int, ties: str) -> dict:
+    """Jev vs Sonnet 5 on the same within-company pairs of subsample S (descriptive).
+
+    Matches results/posthoc_same_subsample_jev_vs_sonnet.json in structure; only emitted
+    for non-default tie policies so the frozen demeaned results stay reproducible.
+    """
+    by_q = {}
+    for qid in ("k1_beat", "k2_react", "k3_drift"):
+        jr = [r for r in k_rows("jev", qid) if r["in_S"]]
+        sr = [r for r in k_rows("sonnet5", qid) if r["in_S"]]
+        shared = {(r["ticker"], r["date"]) for r in jr} & {(r["ticker"], r["date"]) for r in sr}
+        by_q[qid] = ([r for r in jr if (r["ticker"], r["date"]) in shared],
+                     [r for r in sr if (r["ticker"], r["date"]) in shared])
+    out = {}
+    for model, idx in (("jev", 0), ("sonnet5", 1)):
+        pooled = [dict(r, q=qid) for qid, pair in by_q.items() for r in pair[idx]]
+        out[model] = wt_auc_test(pooled, "s_dm", _pair_ok_pre_same_q, B, SEED + 1101, ties=ties)
+        for qid, pair in by_q.items():
+            out[f"{model}|{qid}"] = wt_auc_test(pair[idx], "s_dm", _pair_ok_pre, max(1, B // 2),
+                                                SEED + 1102, ties=ties)
+    return out
+
+
 def md_table(res: dict) -> str:
+    ties = res.get("ties_policy", "demeaned")
     L = [f"# Results: Jev look-ahead test\n\nGenerated {res['generated_utc']}; bootstrap B={res['n_boot']}; "
          f"events {res['events']}; balanced-panel tickers {res['balanced_panel_tickers']}; "
-         f"Jev pin {res['jev_pin']} share {res['jev_pin_share']}.\n",
+         f"Jev pin {res['jev_pin']} share {res['jev_pin_share']}"
+         + (f"; tie policy `{ties}`.\n" if ties != "demeaned" else ".\n"),
          f"**Decision (pre-registered rule): {res['decision']['verdict']}**\n",
-         "## Primary (Jev, within-ticker, same season, 2023 vs 2024, month-demeaned)\n",
+         "## Primary (Jev, within-ticker, same season, 2023 vs 2024, month-demeaned)\n"
+         if ties == "demeaned" else
+         f"## Primary (Jev, within-ticker, same season, 2023 vs 2024, tie policy `{ties}`)\n",
          "| H | question | estimate | 95% CI | one-sided p | Holm reject | pairs | tickers | design MDE |",
          "|---|---|---|---|---|---|---|---|---|"]
     for h, v in res["primary"].items():
@@ -620,17 +684,40 @@ def md_table(res: dict) -> str:
     L.append("\n## Output quality\n")
     for k, v in res["output_quality"].items():
         L.append(f"- {k}: {v}")
+    if res.get("posthoc_same_subsample"):
+        L.append("\n## Posthoc same-subsample (Jev vs Sonnet 5, shared pairs of S)\n")
+        L.append(json.dumps(res["posthoc_same_subsample"]))
     return "\n".join(L) + "\n"
 
 
+def _require_private_files() -> None:
+    """Exit with one clear message if the private inputs are missing (no stack trace)."""
+    needed = [
+        (WORK / "events.jsonl", "LMA_JEV_PRIVATE", "work/events.jsonl under it"),
+        (RUNS, "LMA_JEV_PRIVATE", "runs/ (at least one *.jsonl) under it"),
+    ]
+    missing = []
+    for path, env, what in needed:
+        ok = path.is_file() if path.suffix else (path.is_dir() and any(path.glob("*.jsonl")))
+        if not ok:
+            missing.append(f"  {path}  — expected {what}; set {env} to the private dir")
+    if missing:
+        raise SystemExit("Missing private study files:\n" + "\n".join(missing)
+                         + "\nPrivate labels and raw model logs are not in the published tree.")
+
+
 def main() -> None:
-    ap = argparse.ArgumentParser()
+    ap = argparse.ArgumentParser(description="Pre-registered Jev look-ahead analysis.")
     ap.add_argument("--boot", type=int, default=10000)
+    ap.add_argument("--ties", choices=TIE_POLICIES, default="demeaned",
+                    help="tie policy for the within-company statistic (default: demeaned, the frozen protocol)")
     a = ap.parse_args()
-    res = run(a.boot)
-    RESULTS.mkdir(parents=True, exist_ok=True)
-    (RESULTS / "results.json").write_text(json.dumps(res, indent=1, default=str))
-    (RESULTS / "results.md").write_text(md_table(res))
+    _require_private_files()
+    res = run(a.boot, ties=a.ties)
+    out = RESULTS if a.ties == "demeaned" else RESULTS / f"ties_{a.ties}"
+    out.mkdir(parents=True, exist_ok=True)
+    (out / "results.json").write_text(json.dumps(res, indent=1, default=str))
+    (out / "results.md").write_text(md_table(res))
     print(md_table(res))
 
 

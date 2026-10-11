@@ -1,0 +1,22 @@
+{
+ "created_utc": "2026-10-11T16:16:11.197484Z",
+ "files": {
+  "public_data/model_outputs.csv.gz": {
+   "mtime": 1791733618.669124,
+   "sha256": "c48d807f469611db19275847ab90ff0758488e34d3d04c31e9834bf264cfbae8",
+   "size": 568525
+  },
+  "results/leaderboard.json": {
+   "mtime": 1791733618.6694117,
+   "sha256": "48fc155381aabc8960f98e3c1f05866ffd5cd13f73d1d224ca127e671bf7d681",
+   "size": 23059
+  },
+  "results/leaderboard.md": {
+   "mtime": 1791733618.6695688,
+   "sha256": "79bcdcd33692ae72e002cca66ef6a45712b756b3a9bf3cf47ad76fd93d23fc9c",
+   "size": 1343
+  }
+ },
+ "freeze_json_sha256": "cc476ba0f3c4f194ab05753dd0b7292a9355a42318913957e4131a857b53b144",
+ "study": "leaderboard"
+}
